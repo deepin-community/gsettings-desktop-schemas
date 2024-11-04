@@ -1,24 +1,24 @@
 # Hungarian translation for gsettings-desktop-schemas.
-# Copyright (C) 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021 Free Software Foundation, Inc.
+# Copyright (C) 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
 #
 # Gabor Kelemen <kelemeng at gnome dot hu>, 2012, 2016, 2017.
-# Balázs Úr <ur.balazs at fsf dot hu>, 2013, 2014, 2015, 2016, 2018, 2019, 2020, 2021.
-# Balázs Meskó <mesko.balazs at fsf dot hu>, 2020, 2021.
+# Balázs Úr <ur.balazs at fsf dot hu>, 2013, 2014, 2015, 2016, 2018, 2019, 2020, 2021, 2022, 2023, 2024.
+# Balázs Meskó <mesko.balazs at fsf dot hu>, 2020, 2021, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-schemas"
-"/issues\n"
-"POT-Creation-Date: 2021-08-25 13:31+0000\n"
-"PO-Revision-Date: 2021-09-12 01:32+0200\n"
+"/issues/\n"
+"POT-Creation-Date: 2024-07-31 13:50+0000\n"
+"PO-Revision-Date: 2024-08-31 00:04+0200\n"
 "Last-Translator: Balázs Úr <ur.balazs at fsf dot hu>\n"
-"Language-Team: Hungarian <gnome-hu-list at gnome dot org>\n"
+"Language-Team: Hungarian <openscope at fsf dot hu>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 19.12.3\n"
+"X-Generator: Lokalize 23.08.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: schemas/org.gnome.desktop.a11y.applications.gschema.xml.in:6
@@ -68,6 +68,24 @@ msgid ""
 msgstr ""
 "Ez a kulcs felülbírálja a szövegkurzor elrejtését az alkalmazásokban lévő "
 "nem szerkeszthető szövegben."
+
+#: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:6
+msgid "High contrast"
+msgstr "Nagy kontraszt"
+
+#: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:7
+msgid "Whether to use the high contrast style."
+msgstr "A nagy kontrasztú stílus legyen-e használva."
+
+#: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:13
+msgid "Show status shapes"
+msgstr "Állapotalakzatok megjelenítése"
+
+#: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:14
+msgid ""
+"Whether to use shapes to indicate status in addition or instead of color."
+msgstr ""
+"Használjon-e alakzatokat az állapot jelzésére a színek mellett vagy helyett."
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:6
 msgid "Enable accessibility keyboard shortcuts"
@@ -608,8 +626,8 @@ msgstr "Elidőzési kattintás módja"
 msgid ""
 "The active dwell click mode. Possible values are “window” and “gesture”."
 msgstr ""
-"Az aktív elidőzési mód. Lehetséges értékek: „window” (ablak) és "
-"„gesture” (gesztus)."
+"Az aktív elidőzési mód. Lehetséges értékek: „window” (ablak) és „gesture” "
+"(gesztus)."
 
 #: schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in:41
 msgid "Show click type window"
@@ -727,8 +745,8 @@ msgid ""
 msgstr ""
 "Meghatározza a wallpaper_filename kulcsban beállított kép megjelenését. "
 "Lehetséges értékek: „none” (nincs) „wallpaper” (mozaik), „centered” (középre "
-"igazított), „scaled” (kifeszített), „stretched” (nyújtott), "
-"„zoom” (nagyítás), „spanned” (kiterjesztett)."
+"igazított), „scaled” (kifeszített), „stretched” (nyújtott), „zoom” "
+"(nagyítás), „spanned” (kiterjesztett)."
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:15
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:99
@@ -736,6 +754,7 @@ msgid "Picture URI"
 msgstr "Kép URI"
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:16
+#: schemas/org.gnome.desktop.background.gschema.xml.in:24
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:100
 msgid ""
 "URI to use for the background image. Note that the backend only supports "
@@ -744,46 +763,50 @@ msgstr ""
 "A háttérképként használandó URI. Ne feledje, hogy a háttérprogram csak helyi "
 "(file://) URI-kat támogat."
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:24
+#: schemas/org.gnome.desktop.background.gschema.xml.in:23
+msgid "Picture URI (dark)"
+msgstr "Kép URI (sötét)"
+
+#: schemas/org.gnome.desktop.background.gschema.xml.in:32
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:108
 msgid "Picture Opacity"
 msgstr "Kép átlátszatlansága"
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:25
+#: schemas/org.gnome.desktop.background.gschema.xml.in:33
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:109
 msgid "Opacity with which to draw the background picture."
 msgstr "A háttérkép rajzolásához használandó átlátszatlanság."
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:31
+#: schemas/org.gnome.desktop.background.gschema.xml.in:39
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:115
 msgid "Primary Color"
 msgstr "Elsődleges szín"
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:32
+#: schemas/org.gnome.desktop.background.gschema.xml.in:40
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:116
 msgid "Left or Top color when drawing gradients, or the solid color."
 msgstr ""
 "Színátmenet rajzolásánál a bal vagy a felső szín, vagy az egyszínű háttér "
 "színe."
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:38
+#: schemas/org.gnome.desktop.background.gschema.xml.in:46
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:122
 msgid "Secondary Color"
 msgstr "Másodlagos szín"
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:39
+#: schemas/org.gnome.desktop.background.gschema.xml.in:47
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:123
 msgid "Right or Bottom color when drawing gradients, not used for solid color."
 msgstr ""
 "Színátmenet rajzolásánál a jobb vagy az alsó szín, egyszínű háttér esetén "
 "nem használt."
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:45
+#: schemas/org.gnome.desktop.background.gschema.xml.in:53
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:129
 msgid "Color Shading Type"
 msgstr "Színárnyalat típusa"
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:46
+#: schemas/org.gnome.desktop.background.gschema.xml.in:54
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:130
 msgid ""
 "How to shade the background color. Possible values are “horizontal”, "
@@ -792,14 +815,124 @@ msgstr ""
 "Hogyan árnyalja a háttérszínt. A lehetséges értékek „vízszintes”, "
 "„függőleges” és „homogén”."
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:53
+#: schemas/org.gnome.desktop.background.gschema.xml.in:61
 msgid "Have file manager handle the desktop"
 msgstr "Kezelje-e a fájlkezelő az asztalt"
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:54
+#: schemas/org.gnome.desktop.background.gschema.xml.in:62
 msgid "If set to true, then file manager will draw the icons on the desktop."
 msgstr ""
 "Ha ez igazra van állítva, akkor a fájlkezelő jeleníti meg az asztal ikonjait."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:10
+msgid "List of breaks that are currently enabled"
+msgstr "A jelenleg engedélyezett szünetek listája"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:22
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:87
+#| msgid "Timeout between click repeats"
+msgid "Time between breaks"
+msgstr "Szünetek közötti idő"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:23
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:88
+#| msgid "Delay between repeats in milliseconds."
+msgid "The time between rest breaks, in seconds."
+msgstr "A pihenőszünetek közötti idő másodpercben."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:29
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:94
+msgid "Duration of each break"
+msgstr "Az egyes szünetek időtartama"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:30
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:95
+msgid "The duration of each rest break, in seconds."
+msgstr "Az egyes pihenőszünetek időtartama másodpercben."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:36
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:101
+msgid "Amount to delay break if requested"
+msgstr "A szünet késleltetésének mértéke, ha kérik"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:37
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:102
+msgid ""
+"The amount to delay taking the break by, if the user requests a delay, in "
+"seconds."
+msgstr ""
+"A szünet késleltetésének mértéke másodpercben, ha a felhasználó késleltetést"
+" kér."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:43
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:108
+msgid "Fade screen during breaks"
+msgstr "Képernyő elhalványítása a szünetek alatt"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:44
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:109
+msgid "True to fade the screen during rest breaks."
+msgstr "Igaz, hogy a képernyő elhalványuljon a pihenőszünetek alatt."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:49
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:114
+msgid "Lock screen during breaks"
+msgstr "Képernyő zárolása a szünetek alatt"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:50
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:115
+msgid "True to lock the screen during rest breaks."
+msgstr "Igaz, hogy a képernyő lezáródjon a pihenőszünetek alatt."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:55
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:120
+msgid "Play sound when a break finishes"
+msgstr "Hang lejátszása a szünet befejezésekor"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:56
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:121
+msgid "True to play a sound when a break finishes."
+msgstr "Igaz, hogy hangot játsszon le egy szünet befejezésekor."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:61
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:79
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:126
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:144
+msgid "Notify when a break is due"
+msgstr "Értesítés, ha szünet esedékes"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:62
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:127
+msgid "True to emit a notification when a break is due to start."
+msgstr "Igaz, hogy értesítést küldjön, ha egy szünet kezdete esedékes."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:67
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:132
+msgid "Notify when a break is upcoming"
+msgstr "Értesítés, ha szünet következik"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:68
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:133
+msgid "True to emit a notification a few minutes before a break is due."
+msgstr ""
+"Igaz, hogy értesítést küldjön egy szünet esedékessége előtt néhány perccel."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:73
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:138
+msgid "Notify when a break is overdue"
+msgstr "Értesítés, ha egy szünet lejárt"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:74
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:139
+msgid "True to emit a notification when a break is overdue."
+msgstr "Igaz, hogy értesítést küldjön, ha egy szünet lejárt."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:80
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:145
+msgid "True to show a prominent countdown shortly before a break is due."
+msgstr ""
+"Igaz, hogy egy jól látható visszaszámlálót jelenítsen meg röviddel a szünet"
+" esedékessége előtt."
 
 #: schemas/org.gnome.desktop.calendar.gschema.xml.in:6
 msgid "Show the week date in the calendar"
@@ -955,21 +1088,33 @@ msgstr ""
 "szabályfájlban meghatározott XKB lehetőség karakterlánc."
 
 #: schemas/org.gnome.desktop.input-sources.gschema.xml.in:49
+msgid "XKB model to use"
+msgstr "Használandó XKB modell"
+
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:50
+msgid ""
+"The XKB model to use. The value is the same identifier as defined by "
+"xkeyboard-config’s geometry files."
+msgstr ""
+"A használandó XKB modell. Az érték ugyanaz, mint az xkeyboard-config "
+"geometriafájljaiban meghatározott azonosító."
+
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:57
 msgid "Show all installed input sources"
 msgstr "Minden telepített bemeneti forrás megjelenítése"
 
-#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:50
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:58
 msgid ""
 "Makes all installed input sources available for choosing in System Settings."
 msgstr ""
 "Minden telepített bemeneti forrást elérhetővé tesz a Rendszerbeállításokban "
 "választhatóvá."
 
-#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:57
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:65
 msgid "Use different input sources for each window"
 msgstr "Eltérő bemeneti források használata minden ablakhoz"
 
-#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:58
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:66
 msgid ""
 "When enabled, input sources get attached to the currently focused window "
 "when activated."
@@ -1024,8 +1169,8 @@ msgstr "Eszköztár stílusa"
 msgid ""
 "Toolbar Style. Valid values are “both”, “both-horiz”, “icons”, and “text”."
 msgstr ""
-"Eszköztár stílusa. Lehetséges értékek: „both” (mindkettő), "
-"„both_horiz” (mindkettő vízszintesen), „icon” (ikon), és „text” (szöveg)."
+"Eszköztár stílusa. Lehetséges értékek: „both” (mindkettő), „both_horiz” "
+"(mindkettő vízszintesen), „icon” (ikon), és „text” (szöveg)."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:44
 msgid "Menubar Detachable"
@@ -1157,7 +1302,7 @@ msgstr "GTK bevitelimód-állapot stílusa"
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:147
 msgid "Name of the GTK+ input method Status Style used by gtk+."
-msgstr "A GTK+ által használt GTK+ bevitelimód-állapot stílus neve."
+msgstr "A GTK+ által használt GTK+ beviteli mód állapotstílusának neve."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:153
 msgid "GTK IM Module"
@@ -1165,7 +1310,7 @@ msgstr "GTK beviteli mód modul"
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:154
 msgid "Name of the input method module used by GTK+."
-msgstr "A GTK+ által használt beviteli mód modul neve."
+msgstr "A GTK+ által használt beviteli mód moduljának neve."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:160
 msgid "Document font"
@@ -1259,40 +1404,45 @@ msgstr ""
 "A „gtk-color-scheme” által meghatározott „name:color” „\\n” karakterrel "
 "elválasztott listája"
 
+#. TRANSLATORS: select your locale's default clock format, this should be '12h' or '24h' (with the quotes!)
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:212
+msgid "'24h'"
+msgstr "'24h'"
+
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:213
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:214
 msgid "Whether the clock displays in 24h or 12h format"
 msgstr "Az óra 24-órás vagy 12-órás formában jelenjen-e meg"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:219
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:220
 msgid "Whether the clock shows seconds"
 msgstr "Az óra jelenítse-e meg a másodperceket"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:220
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:221
 msgid "If true, display seconds in the clock."
 msgstr "A másodpercek is jelenjenek meg az órán."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:226
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:227
 msgid "Show date in clock"
 msgstr "Dátum megjelenítése az órában"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:227
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:228
 msgid "If true, display date in the clock, in addition to time."
 msgstr "Az idő mellett a dátum is jelenjen meg."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:233
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:234
 msgid "Show weekday in clock"
 msgstr "Hét napja megjelenítése az órában"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:234
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:235
 msgid "If true, display weekday in the clock, in addition to time."
 msgstr "Ha igaz, akkor az idő mellett a hét napja is megjelenik."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:240
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:241
 msgid "Enable hot corners"
 msgstr "Forró sarkok engedélyezése"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:241
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:242
 msgid ""
 "If true, the activities overview can be accessed by moving the mouse to the "
 "top-left corner."
@@ -1300,11 +1450,11 @@ msgstr ""
 "Ha igaz, akkor a tevékenységek áttekintő elérhető az egér bal felső sarokba "
 "húzásával."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:248
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:249
 msgid "Show battery percentage"
 msgstr "Akkumulátortöltöttség százalékos megjelenítése"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:249
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:250
 msgid ""
 "If true, display battery percentage in the status menu, in addition to the "
 "icon."
@@ -1312,11 +1462,11 @@ msgstr ""
 "Ha igaz, akkor megjelenik az akkumulátortöltöttség százalékosan az "
 "állapotmenüben, az ikon mellett."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:255
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:256
 msgid "Enable the primary paste selection"
 msgstr "Elsődleges beillesztés engedélyezése"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:256
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:257
 msgid ""
 "If true, gtk+ uses the primary paste selection, usually triggered by a "
 "middle mouse button click."
@@ -1324,11 +1474,11 @@ msgstr ""
 "Ha igaz, akkor a gtk+ az elsődleges beillesztést használja, melyet általában "
 "a középső gombra kattintás aktivál."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:262
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:263
 msgid "Allow overlay scrolling"
 msgstr "Rátét görgetés engedélyezése"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:263
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:264
 msgid ""
 "Whether scrollbars should be overlayed as indicators. Depending on input "
 "devices in use, permanent scrollbars may still be displayed."
@@ -1336,11 +1486,11 @@ msgstr ""
 "A görgetősávok rátétek legyenek-e jelzőkként. A használatban lévő beviteli "
 "eszköztől függően az állandó görgetősávok továbbra is láthatóak maradhatnak."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:271
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:272
 msgid "Highlights the current location of the pointer."
 msgstr "Kiemeli a mutató jelenlegi helyét."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:272
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:273
 msgid ""
 "If true, pressing a key will highlight the current pointer location on "
 "screen."
@@ -1348,11 +1498,11 @@ msgstr ""
 "Ha igaz, akkor egy billentyű megnyomása kiemeli a mutató jelenlegi helyét a "
 "képernyőn."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:278
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:279
 msgid "Antialiasing"
 msgstr "Élsimítás"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:279
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:280
 msgid ""
 "The type of antialiasing to use when rendering fonts. Possible values are: "
 "“none” for no antialiasing, “grayscale” for standard grayscale antialiasing, "
@@ -1363,11 +1513,11 @@ msgstr ""
 "élsimításhoz és „rgba” a részképpontok élsimításához (csak LCD kijelzők "
 "esetén)."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:285
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:286
 msgid "Hinting"
 msgstr "Hinting"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:286
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:287
 msgid ""
 "The type of hinting to use when rendering fonts. Possible values are: “none” "
 "for no hinting and “slight” for fitting only to the Y-axis like Microsoft’s "
@@ -1392,11 +1542,11 @@ msgstr ""
 "konzisztens megjelenítéshez vezethet a betűkészlet minőségétől, a "
 "betűkészlet-formátumtól és a FreeType betűkészlet-motortól függően."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:292
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:293
 msgid "RGBA order"
 msgstr "RGBA sorrend"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:293
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:294
 msgid ""
 "The order of subpixel elements on an LCD screen; only used when antialiasing "
 "is set to “rgba”. Possible values are: “rgb” for red on left (most common), "
@@ -1406,6 +1556,56 @@ msgstr ""
 "„rgba”-ra van állítva. A lehetséges értékek: „rgb”, ha a vörös van balra "
 "(leggyakoribb), „brg”, ha a kék van balra, „vrgb”, ha a vörös van a tetején, "
 "„vgbr”, ha a vörös van az alján."
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:300
+msgid "Color scheme"
+msgstr "Színséma"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:301
+msgid ""
+"The preferred color scheme for the user interface. Valid values are "
+"“default”, “prefer-dark”, “prefer-light”."
+msgstr ""
+"A felhasználói felület előnyben részesített színsémája. Az érvényes értékek: "
+"„default” (alapértelmezett), „prefer-dark” (sötét), „prefer-light” (világos)."
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:307
+msgid "Font rendering"
+msgstr "Betűkészlet megjelenítése"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:308
+msgid ""
+"Preference to indicate whether font rendering should follow the low-level "
+"`font-hinting` and `font-antialiasing` and `font-rgba-order` settings, or "
+"take environmental factors such as screen resolution and scaling into "
+"account. Possible values are: \"manual\" for respecting the low-level "
+"settings, or \"automatic\" for letting the toolkit make its own decisions."
+msgstr ""
+"Preferencia annak jelzésére, hogy a betűkészlet megjelenítésének az alacsony"
+" szintű „font-hinting”, „font-antialiasing” és „font-rgba-order”"
+" beállításokat kell-e követnie, vagy figyelembe kell-e vennie az olyan"
+" környezeti tényezőket, mint a képernyő felbontása és méretezése. A"
+" lehetséges értékek: „manual” (kézi) az alacsony szintű beállítások"
+" figyelembe vételéhez, vagy „automatic” (automatikus) az eszközkészlet saját"
+" döntéseire bízva."
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:316
+msgid "Accent color"
+msgstr "Kiemelőszín"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:317
+#| msgid ""
+#| "The preferred color scheme for the user interface. Valid values are "
+#| "“default”, “prefer-dark”, “prefer-light”."
+msgid ""
+"The preferred accent color for the user interface. Valid values are "
+"\"blue\", \"teal\", \"green\", \"yellow\", \"orange\", \"red\", \"pink\", "
+"\"purple\", \"slate\"."
+msgstr ""
+"A felhasználói felület előnyben részesített kiemelőszíne. Az érvényes"
+" értékek: „blue” (kék), „teal” (kékeszöld), „green” (zöld), „yellow” (sárga),"
+" „orange” (narancssárga), „red” (piros), „pink” (rózsaszín), „purple” (lila),"
+" „slate” (palaszürke)."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:6
 msgid "Disable command line"
@@ -1521,7 +1721,6 @@ msgstr ""
 "módosításában."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:84
-#| msgid "Disable user switching"
 msgid "Disable password showing"
 msgstr "Jelszó megjelenítésének letiltása"
 
@@ -1708,23 +1907,23 @@ msgstr ""
 "Ebből az alkalmazásból az értesítések összefoglalója és törzse legyen-e "
 "látható a zárolt képernyőn."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:14
-msgid "Whether edge scrolling is enabled"
-msgstr "Engedélyezett-e a görgetés a szélen"
-
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:15
+msgid "Whether edge scrolling is enabled"
+msgstr "Engedélyezve van-e a széleken történő görgetés"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:16
 msgid ""
 "When enabled, touchpads that support edge scrolling will have that feature "
 "enabled."
 msgstr ""
-"Ha engedélyezve van, akkor a szélen görgetést támogató érintőtábláknál "
-"engedélyezve lesz az a funkció."
+"Ha engedélyezve van, akkor a széleken történő görgetést támogató "
+"érintőtábláknál engedélyezve lesz az a funkció."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:19
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:20
 msgid "Whether two-finger scrolling is enabled"
 msgstr "Engedélyezett-e a kétujjas görgetés"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:20
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:21
 msgid ""
 "When enabled, touchpads that support two-finger scrolling will have that "
 "feature enabled."
@@ -1732,32 +1931,32 @@ msgstr ""
 "Ha engedélyezve van, akkor a kétujjas görgetést támogató érintőtábláknál "
 "engedélyezve lesz az a funkció."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:24
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:25
 msgid "Whether to disable the touchpad while typing"
 msgstr "Letiltsa-e az érintőtáblát gépelés közben"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:25
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:26
 msgid "When enabled, touchpads will be disabled while typing on the keyboard."
 msgstr ""
 "Ha engedélyezve van, akkor az érintőtáblák letiltásra kerülnek a "
 "billentyűzeten gépelés közben."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:29
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:30
 msgid "Enable mouse clicks with touchpad"
 msgstr "Egérkattintások engedélyezése az érintőtáblán"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:30
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:31
 msgid ""
 "Set this to TRUE to be able to send mouse clicks by tapping on the touchpad."
 msgstr ""
 "Állítsa IGAZRA, hogy egérkattintásokat küldhessen az érintőtáblára "
 "koppintással."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:34
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:35
 msgid "Tap Button Map"
 msgstr "Koppintás gombokra történő leképezése"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:35
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:36
 msgid ""
 "Defines the mapping between the number of fingers and touchpad buttons. The "
 "default is to have a 1, 2 and 3 finger tap to map to the left, right and "
@@ -1767,11 +1966,11 @@ msgstr ""
 "Az alapértelmezett az 1, 2 és 3 ujjas koppintás a bal, jobb és középső "
 "gombra („lmr”) történő leképezésre."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:39
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:40
 msgid "Enable tap-and-drag with touchpad"
 msgstr "„Koppintás és húzás” engedélyezése az érintőtáblán"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:40
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:41
 msgid ""
 "Set this to TRUE to be able to start a drag by tapping and immediately "
 "moving the finger that’s now pressed on the touchpad."
@@ -1779,11 +1978,11 @@ msgstr ""
 "Állítsa IGAZRA, hogy koppintással és az ujj azonnali mozgatásával húzást "
 "kezdeményezhessen az érintőtáblán."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:44
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:45
 msgid "Enable tap-and-drag-lock with touchpad"
 msgstr "„Koppintás és húzás” zárolásának engedélyezése az érintőtáblán"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:45
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:46
 msgid ""
 "Set this to TRUE to lock the dragging process within a short timeout when "
 "the finger is lifted on the touchpad and the tap-and-drag setting is enabled."
@@ -1792,19 +1991,19 @@ msgstr ""
 "a húzási folyamatot, ha felemeli az érintőtábláról az ujját és a koppintás "
 "és húzás engedélyezett."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:49
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:50
 msgid "Touchpad enabled"
 msgstr "Érintőtábla engedélyezve"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:50
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:51
 msgid "Defines the situations in which the touchpad is enabled."
 msgstr "Meghatározza azt a helyzetet, amikor az érintőtábla engedélyezve van."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:54
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:55
 msgid "Touchpad button orientation"
 msgstr "Érintőtábla gombjának elhelyezkedése"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:55
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:56
 msgid ""
 "Swap left and right mouse buttons for left-handed mice with “left”, “right” "
 "for right-handed, “mouse” to follow the mouse setting."
@@ -1813,12 +2012,38 @@ msgstr ""
 "jobbkezeshez a „right” értékkel. A „mouse” esetén az egérbeállításokat "
 "követi."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:59
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:114
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:60
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:131
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:261
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:279
+msgid "Acceleration profile"
+msgstr "Gyorsítási profil"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:61
+msgid ""
+"Acceleration profile used for connected touchpads. The acceleration profile "
+"can be set to either default (“default”) which uses the default acceleration "
+"profile for each device, flat (“flat”), which accelerates by a device "
+"specific constant factor derived from the configured pointer speed, or "
+"adaptive (“adaptive”) which adapts the acceleration depending on the mouse "
+"movement. If a touchpad doesn’t support the configured profile, “default” "
+"will be used."
+msgstr ""
+"Csatlakoztatott érintőtábláknál használt gyorsítási profil. A gyorsítási "
+"profil beállítható alapértelmezettre („default”), amely az alapértelmezett "
+"gyorsítási profilt használja az egyes eszközöknél, simára („flat”), amely a "
+"beállított mutatósebességből származtatott, az eszközre jellemző állandó "
+"tényezővel gyorsít, vagy alkalmazkodóra („adaptive”), amely hozzáilleszti a "
+"gyorsítást az egér mozgásától függően. Ha egy érintőtábla nem támogatja a "
+"beállított profilt, akkor a „default” lesz használva."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:65
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:120
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:273
 msgid "Pointer speed"
 msgstr "Mutató sebessége"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:60
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:66
 msgid ""
 "Pointer speed for the touchpad. Accepted values are in the [-1..1] range "
 "(from “unaccelerated” to “fast”). A value of 0 is the system default."
@@ -1827,22 +2052,22 @@ msgstr ""
 "tartományban vannak (a „gyorsítatlantól” a „gyorsig”). A rendszer "
 "alapértelmezett értéke 0."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:65
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:120
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:71
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:126
 msgid "Natural scrolling"
 msgstr "Természetes görgetés"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:66
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:72
 msgid "Set this to TRUE to enable natural (reverse) scrolling for touchpads."
 msgstr ""
 "Állítsa IGAZRA a természetes (fordított) görgetés engedélyezéséhez az "
 "érintőtábláknál."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:70
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:76
 msgid "Click method"
-msgstr "Kattintás metódus"
+msgstr "Kattintási módszer"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:71
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:77
 msgid ""
 "How to generate software-emulated buttons, either disabled (“none”), through "
 "specific areas (“areas”), number of fingers (“fingers”) or left as hardware "
@@ -1852,15 +2077,15 @@ msgstr ""
 "adott területen keresztül („areas”), ujjak száma („fingers”), vagy hagyja a "
 "hardver alapértelmezettjén („default”)."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:75
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:130
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:235
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:81
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:136
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:266
 msgid "Emulate middle click"
 msgstr "Középső kattintás utánzása"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:76
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:131
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:236
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:82
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:137
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:267
 msgid ""
 "Set this to TRUE to enable middle click during simultaneous left and right "
 "click."
@@ -1868,35 +2093,35 @@ msgstr ""
 "Állítsa ezt IGAZ értékre a középső kattintás engedélyezéséhez az egyszerre "
 "történő bal és jobb kattintáskor."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:82
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:88
 msgid "Keyboard repeat"
 msgstr "Billentyűzetismétlés"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:83
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:89
 msgid "Set this to TRUE to enable keyboard repeat."
 msgstr "Állítsa IGAZRA a billentyűzetismétlés engedélyezéséhez."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:87
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:93
 msgid "Key Repeat Interval"
 msgstr "Billentyűismétlés időköze"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:88
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:94
 msgid "Delay between repeats in milliseconds."
 msgstr "Az ismétlések közti késleltetés ezredmásodpercben."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:92
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:98
 msgid "Initial Key Repeat Delay"
 msgstr "Kezdeti billentyűismétlés késleltetése"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:93
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:99
 msgid "Initial key repeat delay in milliseconds."
 msgstr "Kezdeti billentyűismétlés késleltetése ezredmásodpercben."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:97
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:103
 msgid "Remember NumLock state"
 msgstr "NumLock állapotának megjegyzése"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:98
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:104
 msgid ""
 "When set to true, GNOME will remember the state of the NumLock LED between "
 "sessions."
@@ -1904,23 +2129,23 @@ msgstr ""
 "Ha igazra van állítva, akkor a GNOME megjegyzi a NumLock LED állapotát a "
 "munkamenetek között."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:102
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:108
 msgid "NumLock state"
 msgstr "NumLock állapota"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:103
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:109
 msgid "The remembered state of the NumLock LED."
 msgstr "A NumLock LED megjegyzett állapota."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:109
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:115
 msgid "Mouse button orientation"
 msgstr "Egérgomb elhelyezkedése"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:110
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:116
 msgid "Swap left and right mouse buttons for left-handed mice."
 msgstr "A bal és jobb egérgombok felcserélése balkezes egerekhez."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:115
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:121
 msgid ""
 "Pointer speed for mice. Accepted values are in the [-1..1] range (from "
 "“unaccelerated” to “fast”). A value of 0 is the system default."
@@ -1929,18 +2154,13 @@ msgstr ""
 "tartományban vannak (a „gyorsítatlantól” a „gyorsig”). A rendszer "
 "alapértelmezett értéke 0."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:121
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:127
 msgid "Set this to TRUE to enable natural (reverse) scrolling for mice."
 msgstr ""
 "Állítsa IGAZRA a természetes (fordított) görgetés engedélyezéséhez az "
 "egereknél."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:125
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:230
-msgid "Acceleration profile"
-msgstr "Gyorsítási profil"
-
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:126
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:132
 msgid ""
 "Acceleration profile used for connected mice. The acceleration profile can "
 "be set to either default (“default”) which uses the default acceleration "
@@ -1958,27 +2178,27 @@ msgstr ""
 "gyorsítást az egér mozgásától függően. Ha egy egér nem támogatja a "
 "beállított profilt, akkor a „default” lesz használva."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:135
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:141
 msgid "Double click time"
 msgstr "Dupla kattintás ideje"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:136
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:142
 msgid "Length of a double click in milliseconds."
 msgstr "A dupla kattintás hossza ezredmásodpercben."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:140
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:146
 msgid "Drag threshold"
 msgstr "Húzási küszöb"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:141
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:147
 msgid "Distance before a drag is started."
 msgstr "Távolság a húzás elindítása előtt."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:147
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:153
 msgid "Drawing tablet mapping"
 msgstr "Rajzoló táblagép leképezése"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:148
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:154
 msgid ""
 "EDID information of the output the tablet is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic "
@@ -1988,19 +2208,19 @@ msgstr ""
 "termék, sorozatszám] formátumban kell lennie. A [\"\",\"\",\"\"] megbízik az "
 "automatikus leképzésben."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:152
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:158
 msgid "Tablet mapping"
 msgstr "Táblagép leképezése"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:153
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:159
 msgid "How input affects the pointer on the screen"
 msgstr "Hogyan befolyásolja a bemenet a mutatót a képernyőn"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:157
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:163
 msgid "Tablet area"
 msgstr "Táblagép területe"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:158
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:164
 msgid ""
 "Dead area padding around the active area, in percentages. Respectively "
 "applied to left,right,top and bottom sides."
@@ -2008,11 +2228,11 @@ msgstr ""
 "Az aktív területet körbevevő halott terület százalékban megadva. Rendre a "
 "bal, jobb, fenti és lenti oldalakra alkalmazva."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:162
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:168
 msgid "Tablet aspect ratio"
 msgstr "Táblagép méretaránya"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:163
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:169
 msgid ""
 "Enable this to restrict the tablet area to match the aspect ratio of the "
 "output."
@@ -2020,50 +2240,72 @@ msgstr ""
 "Ha engedélyezett, a táblagép területe le lesz korlátozva, hogy megegyezzen a "
 "kimenet méretarányával."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:167
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:173
 msgid "Tablet left-handed mode"
 msgstr "Táblagép balkezes módja"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:168
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:174
 msgid ""
 "Enable this to allow physically rotating the tablet for left-handed setups"
 msgstr ""
 "Ha engedélyezett, akkor lehetővé teszi a táblagép fizikai elforgatását a "
 "balkezes beállításokhoz"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:174
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:180
 msgid "Stylus pressure curve"
 msgstr "Íróvessző nyomásgörbéje"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:175
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:181
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the stylus."
-msgstr "Az íróvesszőre alkalmazott nyomásgörbe x1, y1 és x2, y2 koordinátái."
+msgstr ""
+"Állítsa ezt az íróvesszőre alkalmazott nyomásgörbe x1, y1 és x2, y2"
+" koordinátáira."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:179
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:185
+#| msgid "Stylus pressure curve"
+msgid "Stylus pressure range"
+msgstr "Íróvessző nyomástartománya"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:186
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:196
+msgid ""
+"Set this to the percentage of the physical pressure range that should map to "
+"the logical range."
+msgstr ""
+"Állítsa ezt a fizikai nyomástartomány azon százalékos értékére, amelyet a"
+" logikai tartományra kell leképezni."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:190
 msgid "Eraser pressure curve"
 msgstr "Törlő nyomásgörbéje"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:180
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:191
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
-msgstr "A törlőre alkalmazott nyomásgörbe x1, y1 és x2, y2 koordinátái."
+msgstr ""
+"Állítsa ezt a törlőre alkalmazott nyomásgörbe x1, y1 és x2, y2 koordinátáira."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:184
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:195
+#| msgid "Eraser pressure curve"
+msgid "Eraser pressure range"
+msgstr "Törlő nyomástartománya"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:200
 msgid "Button action"
 msgstr "Gomb művelete"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:185
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:201
 msgid "Stylus button action, this button is located along the pen handle."
 msgstr ""
 "Az íróvessző gombjának művelete. Ez a gomb a toll fogantyúja mentén "
 "található."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:189
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:205
 msgid "Secondary button action"
 msgstr "Másodlagos gomb művelete"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:190
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:206
 msgid ""
 "Secondary stylus button action, this button is located along the pen handle "
 "on some styli like the Grip Pen. Other styli like the Airbrush Pen or the "
@@ -2074,11 +2316,11 @@ msgstr ""
 "íróvesszőknek (például Airbrush Pen vagy Inking Pen) csak egyetlen gombja "
 "van, ez a beállítás hatástalan azoknál."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:194
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:210
 msgid "Tertiary button action"
 msgstr "Harmadlagos gomb művelete"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:195
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:211
 msgid ""
 "Tertiary stylus button action, this button is located along the pen handle "
 "on some styli like the 3D Pen. Other styli like the Grip Pen only have two "
@@ -2088,30 +2330,48 @@ msgstr ""
 "mentén található néhány íróvesszőn, mint például a 3D Pen. Más íróvesszőknek "
 "(például Grip Pen) csak két gombja van, ez a beállítás hatástalan azoknál."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:201
-msgid "Pad button action type"
-msgstr "Tábla gombjának művelettípusa"
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:215
+#| msgid "Key combination for the custom action"
+msgid "Key combination for the primary button"
+msgstr "Az elsődleges gomb billentyűkombinációja"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:202
-msgid "The type of action triggered by the button being pressed."
-msgstr "A gomb lenyomása által kiváltott művelet."
-
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:206
-msgid "Key combination for the custom action"
-msgstr "Az egyéni művelet billentyűkombinációja"
-
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:207
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:216
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:221
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:226
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:238
 msgid ""
 "The keyboard shortcut generated when the button is pressed for custom "
 "actions."
 msgstr ""
 "Az egyéni műveletek gombjának megnyomásakor előállított billentyűkombináció."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:213
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:220
+#| msgid "Key combination for the custom action"
+msgid "Key combination for the secondary button"
+msgstr "A másodlagos gomb billentyűkombinációja"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:225
+#| msgid "Key combination for the custom action"
+msgid "Key combination for the tertiary button"
+msgstr "A harmadlagos gomb billentyűkombinációja"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:232
+msgid "Pad button action type"
+msgstr "Tábla gombjának művelettípusa"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:233
+msgid "The type of action triggered by the button being pressed."
+msgstr "A gomb lenyomása által kiváltott művelet."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:237
+msgid "Key combination for the custom action"
+msgstr "Az egyéni művelet billentyűkombinációja"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:244
 msgid "Touchscreen output mapping"
 msgstr "Érintőképernyő kimenet leképezése"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:214
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:245
 msgid ""
 "EDID information of the output the touchscreen is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic "
@@ -2121,15 +2381,15 @@ msgstr ""
 "[szállító, termék, sorozatszám] formátumban kell lennie. A [\"\",\"\",\"\"] "
 "megbízik az automatikus leképzésben."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:221
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:252
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr "Egérgörgő emulációs gomb. 0 értékkel letiltható a funkció."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:225
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:256
 msgid "Mouse wheel emulation button lock"
 msgstr "Egérgörgő emulációs gomb zárolása"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:226
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:257
 msgid ""
 "Set this to TRUE to enable button locking for the wheel emulation button. If "
 "enabled, the first click of the button enables scrolling, the second click "
@@ -2139,7 +2399,7 @@ msgstr ""
 "zárolását. Ha engedélyezve van, akkor az első gombkattintás engedélyezi a "
 "görgetést, a második kattintás újra letiltja."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:231
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:262
 msgid ""
 "Acceleration profile used for the trackball. The acceleration profile can be "
 "set to either default (“default”) which uses the default acceleration "
@@ -2148,13 +2408,56 @@ msgid ""
 "adapts the acceleration depending on the movement. If the trackball doesn’t "
 "support the configured profile, “default” will be used."
 msgstr ""
-"Csatlakoztatott hanyattegereknél használt gyorsítási profil. A gyorsítási "
-"profil beállítható alapértelmezettre („default”), amely az alapértelmezett "
-"gyorsítási profilt használja, simára („flat”), amely a beállított "
-"sebességből származtatott, az eszközre jellemző állandó tényezővel gyorsít, "
-"vagy alkalmazkodóra („adaptive”), amely hozzáilleszti a gyorsítást a "
-"mozgástól függően. Ha a hanyattegér nem támogatja a beállított profilt, "
-"akkor a „default” lesz használva."
+"A hanyattegérnél használt gyorsítási profil. A gyorsítási profil beállítható "
+"alapértelmezettre („default”), amely az alapértelmezett gyorsítási profilt "
+"használja, simára („flat”), amely a beállított sebességből származtatott, az "
+"eszközre jellemző állandó tényezővel gyorsít, vagy alkalmazkodóra "
+"(„adaptive”), amely hozzáilleszti a gyorsítást a mozgástól függően. Ha a "
+"hanyattegér nem támogatja a beállított profilt, akkor a „default” lesz "
+"használva."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:274
+msgid ""
+"Pointer speed for pointing sticks. Accepted values are in the [-1..1] range "
+"(from “unaccelerated” to “fast”). A value of 0 is the system default."
+msgstr ""
+"A mutatópálcák mutatójának sebessége. Az elfogadott értékek a [-1..1] "
+"tartományban vannak (a „gyorsítatlantól” a „gyorsig”). A rendszer "
+"alapértelmezett értéke 0."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:280
+msgid ""
+"Acceleration profile used for the pointing stick. The acceleration profile "
+"can be set to either default (“default”) which uses the default acceleration "
+"profile, flat (“flat”), which accelerates by a device specific constant "
+"factor derived from the configured speed, or adaptive (“adaptive”) which "
+"adapts the acceleration depending on the movement. If the pointing stick "
+"doesn’t support the configured profile, “default” will be used."
+msgstr ""
+"A mutatópálcánál használt gyorsítási profil. A gyorsítási profil beállítható "
+"alapértelmezettre („default”), amely az alapértelmezett gyorsítási profilt "
+"használja, simára („flat”), amely a beállított sebességből származtatott, az "
+"eszközre jellemző állandó tényezővel gyorsít, vagy alkalmazkodóra "
+"(„adaptive”), amely hozzáilleszti a gyorsítást a mozgástól függően. Ha a "
+"mutatópálca nem támogatja a beállított profilt, akkor a „default” lesz "
+"használva."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:284
+msgid "Scrolling method"
+msgstr "Görgetési módszer"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:285
+msgid ""
+"Scrolling method used for pointing sticks. The scrolling method can be set "
+"to either default (“default”) which uses the default method, none (“none”), "
+"which disables scrolling, or middle-button (“on-button-down”) which enables "
+"scrolling whilst the middle button is held down."
+msgstr ""
+"A mutatópálcáknál használt görgetési módszer. A görgetési módszer "
+"beállítható alapértelmezettre („default”), amely az alapértelmezett módszert "
+"használja, nincs („none”) értékre, amely letiltja a görgetést, vagy középső "
+"gombra („on-button-down”), amely addig teszi lehetővé a görgetést, amíg a "
+"középső gombot lenyomva tartják."
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:6
 msgid "Controls visibility of personal information"
@@ -2312,6 +2615,20 @@ msgstr ""
 "Ha „lockscreen” értékre van állítva, akkor csak a zárolt képernyőn lesznek "
 "az USB-s eszközök elutasítva. Ha „always” az értéke, akkor az új USB-s "
 "eszközök mindig el lesznek utasítva."
+
+#: schemas/org.gnome.desktop.privacy.gschema.xml.in:95
+msgid "Whether the privacy screen is enabled"
+msgstr "Az adatvádelem képernyő engedélyezve van-e"
+
+#: schemas/org.gnome.desktop.privacy.gschema.xml.in:96
+msgid ""
+"If the underlying hardware has privacy screen support and this setting is "
+"enabled, the panels supporting this technology will be obscured from lateral "
+"view."
+msgstr ""
+"Ha az alapul szolgáló hardver rendelkezik adatvédelmi képernyő támogatással, "
+"és ez a beállítás engedélyezve van, akkor a technológiát támogató panelek el "
+"lesznek takarva az oldalnézet elől."
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:6
 msgid "Activate when idle"
@@ -2521,7 +2838,7 @@ msgid ""
 msgstr ""
 "Ezen a listán található alkalmazások találatai a megadott sorrendben lesznek "
 "megjelenítve. Az ezen a listán nem található alkalmazások találatai "
-"legutoljára lesznek megjelenítve ABC sorrendben."
+"legutoljára lesznek megjelenítve betűrendben."
 
 #: schemas/org.gnome.desktop.session.gschema.xml.in:6
 msgid "Time before session is considered idle"
@@ -2781,190 +3098,186 @@ msgid "Restore window"
 msgstr "Ablak visszaállítása"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:172
-msgid "Toggle shaded state"
-msgstr "Felgördített állapot átváltása"
-
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:176
 msgid "Minimize window"
 msgstr "Ablak minimalizálása"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:180
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:176
 msgid "Close window"
 msgstr "Ablak bezárása"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:184
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:180
 msgid "Move window"
 msgstr "Ablak áthelyezése"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:188
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:184
 msgid "Resize window"
 msgstr "Ablak átméretezése"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:192
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:188
 msgid "Toggle window on all workspaces or one"
 msgstr "Ablak megjelenítése minden munkaterületen vagy csak az egyiken"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:196
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:192
 msgid "Move window to workspace 1"
 msgstr "Ablak áthelyezése az 1. munkaterületre"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:200
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:196
 msgid "Move window to workspace 2"
 msgstr "Ablak áthelyezése a 2. munkaterületre"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:204
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:200
 msgid "Move window to workspace 3"
 msgstr "Ablak áthelyezése a 3. munkaterületre"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:208
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:204
 msgid "Move window to workspace 4"
 msgstr "Ablak áthelyezése a 4. munkaterületre"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:212
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:208
 msgid "Move window to workspace 5"
 msgstr "Ablak áthelyezése az 5. munkaterületre"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:216
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:212
 msgid "Move window to workspace 6"
 msgstr "Ablak áthelyezése a 6. munkaterületre"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:220
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:216
 msgid "Move window to workspace 7"
 msgstr "Ablak áthelyezése a 7. munkaterületre"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:224
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:220
 msgid "Move window to workspace 8"
 msgstr "Ablak áthelyezése a 8. munkaterületre"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:228
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:224
 msgid "Move window to workspace 9"
 msgstr "Ablak áthelyezése a 9. munkaterületre"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:232
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:228
 msgid "Move window to workspace 10"
 msgstr "Ablak áthelyezése a 10. munkaterületre"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:236
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:232
 msgid "Move window to workspace 11"
 msgstr "Ablak áthelyezése a 11. munkaterületre"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:240
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:236
 msgid "Move window to workspace 12"
 msgstr "Ablak áthelyezése a 12. munkaterületre"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:244
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:240
 msgid "Move window to last workspace"
 msgstr "Ablak áthelyezése az utolsó munkaterületre"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:248
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:244
 msgid "Move window one workspace to the left"
 msgstr "Ablak áthelyezése a balra lévő munkaterületre"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:252
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:248
 msgid "Move window one workspace to the right"
 msgstr "Ablak áthelyezése a jobbra lévő munkaterületre"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:256
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:252
 msgid "Move window one workspace up"
 msgstr "Ablak áthelyezése egy munkaterülettel feljebb"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:260
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:256
 msgid "Move window one workspace down"
 msgstr "Ablak áthelyezése egy munkaterülettel lejjebb"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:264
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:260
 msgid "Move window to the next monitor on the left"
 msgstr "Ablak áthelyezése a balra lévő következő monitorra"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:268
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:264
 msgid "Move window to the next monitor on the right"
 msgstr "Ablak áthelyezése a jobbra lévő következő monitorra"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:272
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:268
 msgid "Move window to the next monitor above"
 msgstr "Ablak áthelyezése a fent lévő következő monitorra"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:276
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:272
 msgid "Move window to the next monitor below"
 msgstr "Ablak áthelyezése a lent lévő következő monitorra"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:280
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:276
 msgid "Raise window if covered, otherwise lower it"
 msgstr "Fedett ablak előtérbe hozása, egyébként háttérbe küldése"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:284
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:280
 msgid "Raise window above other windows"
 msgstr "Ablak más ablakok elé hozása"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:288
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:284
 msgid "Lower window below other windows"
 msgstr "Ablak más ablakok mögé küldése"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:292
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:288
 msgid "Maximize window vertically"
 msgstr "Ablak függőleges maximalizálása"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:296
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:292
 msgid "Maximize window horizontally"
 msgstr "Ablak vízszintes maximalizálása"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:300
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:296
 msgid "Move window to top left corner"
 msgstr "Ablak áthelyezése a bal felső sarokba"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:304
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:300
 msgid "Move window to top right corner"
 msgstr "Ablak áthelyezése a jobb felső sarokba"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:308
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:304
 msgid "Move window to bottom left corner"
 msgstr "Ablak áthelyezése a bal alsó sarokba"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:312
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:308
 msgid "Move window to bottom right corner"
 msgstr "Ablak áthelyezése a jobb alsó sarokba"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:316
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:312
 msgid "Move window to top edge of screen"
 msgstr "Ablak áthelyezése a képernyő felső oldalához"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:320
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:316
 msgid "Move window to bottom edge of screen"
 msgstr "Ablak áthelyezése a képernyő alsó oldalához"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:324
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:320
 msgid "Move window to right side of screen"
 msgstr "Ablak áthelyezése a képernyő jobb oldalához"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:328
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:324
 msgid "Move window to left side of screen"
 msgstr "Ablak áthelyezése a képernyő bal oldalához"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:332
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:328
 msgid "Move window to center of screen"
 msgstr "Ablak áthelyezése a képernyő közepére"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:336
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:332
 msgid "Switch input source"
 msgstr "Bemeneti forrás váltása"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:337
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:333
 msgid "Binding to select the next input source"
 msgstr "Gyorsbillentyű a következő bemeneti forrás kiválasztásához"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:341
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:337
 msgid "Switch input source backward"
 msgstr "Bemeneti forrás váltása visszafelé"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:342
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:338
 msgid "Binding to select the previous input source"
 msgstr "Gyorsbillentyű az előző bemeneti forrás kiválasztásához"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:346
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:342
 msgid "Toggle window to be always on top"
 msgstr "Ablak váltása mindig felül történő megjelenésre"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:347
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:343
 msgid "Set or unset window to appear always on top"
 msgstr ""
 "Ablak beállítása vagy a beállítás visszavonása, hogy mindig felül jelenjen "
@@ -3052,14 +3365,14 @@ msgstr "Új ablakok fókuszba kerülésének vezérlése"
 msgid ""
 "This option provides additional control over how newly created windows get "
 "focus. It has two possible values; “smart” applies the user’s normal focus "
-"mode, and “strict” results in windows started from a terminal not being "
-"given focus."
+"mode, and “strict” results in new windows not being given focus "
+"automatically."
 msgstr ""
 "Ez a beállítás az újonnan létrehozott ablakok fókuszba kerülésének "
 "irányítására biztosít további lehetőséget. Két lehetséges értéke van: a "
 "„smart” (intelligens) a felhasználó normál fókuszmódját alkalmazza, a "
-"„strict” (korlátozott) hatására pedig a terminálból indított ablakok nem "
-"kapnak fókuszt."
+"„strict” (korlátozott) hatására pedig az új ablakok nem kapnak automatikusan "
+"fókuszt."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:65
 msgid "Whether windows should be raised when their client area is clicked"
@@ -3088,79 +3401,73 @@ msgstr "A címsoron való dupla kattintáskor bekövetkező esemény"
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:83
 msgid ""
 "This option determines the effects of double-clicking on the title bar. "
-"Current valid options are “toggle-shade”, which will shade/unshade the "
-"window, “toggle-maximize” which will maximize/unmaximize the window, “toggle-"
-"maximize-horizontally” and “toggle-maximize-vertically” which will maximize/"
-"unmaximize the window in that direction only, “minimize” which will minimize "
-"the window, “shade” which will roll the window up, “menu” which will display "
-"the window menu, “lower” which will put the window behind all the others, "
-"and “none” which will not do anything."
+"Current valid options are “toggle-maximize” which will maximize/unmaximize "
+"the window, “toggle-maximize-horizontally” and “toggle-maximize-vertically” "
+"which will maximize/unmaximize the window in that direction only, “minimize” "
+"which will minimize the window, “menu” which will display the window menu, "
+"“lower” which will put the window behind all the others, and “none” which "
+"will not do anything."
 msgstr ""
-"Ez az opció határozza meg, hogy mi történjen a címsoron való dupla kattintás "
-"esetén. Jelenleg érvényes opciók a „toggle-shade”, amely hatására az ablak "
-"felgördül/legördül, a „toggle-maximize”, amely hatására teljes képernyős/"
-"eredeti méretű lesz, „toggle-maximize-horizontally” és „toggle-maximize-"
-"vertically”, amelyek hatására az ablak csak vízszintesen/függőlegesen lesz "
-"maximalizálva, „minimize”, amely hatására kis méretű lesz az ablak, „shade”, "
-"amely hatására az ablak felgördül, „menu”, amely megjeleníti az ablak menüt, "
+"Ez a beállítás határozza meg, hogy mi történjen a címsoron való dupla "
+"kattintás esetén. Jelenleg érvényes lehetőségek a „toggle-maximize”, amely "
+"hatására teljes képernyős/eredeti méretű lesz, „toggle-maximize-"
+"horizontally” és „toggle-maximize-vertically”, amelyek hatására az ablak "
+"csak vízszintesen/függőlegesen lesz maximalizálva, „minimize”, amely "
+"hatására kis méretű lesz az ablak, „menu”, amely megjeleníti az ablak menüt, "
 "„lower”, amely az ablakot a többi ablak mögé viszi és „none”, amely nem hajt "
 "végre semmit."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:108
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:105
 msgid "Action on title bar middle-click"
 msgstr "A címsoron való középső gombos kattintáskor bekövetkező esemény"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:109
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:106
 msgid ""
 "This option determines the effects of middle-clicking on the title bar. "
-"Current valid options are “toggle-shade”, which will shade/unshade the "
-"window, “toggle-maximize” which will maximize/unmaximize the window, “toggle-"
-"maximize-horizontally” and “toggle-maximize-vertically” which will maximize/"
-"unmaximize the window in that direction only, “minimize” which will minimize "
-"the window, “shade” which will roll the window up, “menu” which will display "
-"the window menu, “lower” which will put the window behind all the others, "
-"and “none” which will not do anything."
+"Current valid options are “toggle-maximize” which will maximize/unmaximize "
+"the window, “toggle-maximize-horizontally” and “toggle-maximize-vertically” "
+"which will maximize/unmaximize the window in that direction only, “minimize” "
+"which will minimize the window, “menu” which will display the window menu, "
+"“lower” which will put the window behind all the others, and “none” which "
+"will not do anything."
 msgstr ""
-"Ez az opció határozza meg, hogy mi történjen a címsoron való középső gombos "
-"kattintás esetén. Jelenleg érvényes opciók a „toggle-shade”, amely hatására "
-"az ablak felgördül/legördül, a „toggle-maximize”, amely hatására teljes "
-"képernyős/eredeti méretű lesz, „toggle-maximize-horizontally” és „toggle-"
-"maximize-vertically”, amelyek hatására az ablak csak vízszintesen/"
-"függőlegesen lesz maximalizálva, „minimize”, amely hatására kis méretű lesz "
-"az ablak, „shade”, amely hatására az ablak felgördül, „menu”, amely "
-"megjeleníti az ablak menüt, „lower”, amely az ablakot a többi ablak mögé "
-"viszi és „none”, amely nem hajt végre semmit."
+"Ez a beállítás határozza meg, hogy mi történjen a címsoron való középső "
+"gombos kattintás esetén. Jelenleg érvényes lehetőségek a „toggle-maximize”, "
+"amely hatására teljes képernyős/eredeti méretű lesz, „toggle-maximize-"
+"horizontally” és „toggle-maximize-vertically”, amelyek hatására az ablak "
+"csak vízszintesen/függőlegesen lesz maximalizálva, „minimize”, amely "
+"hatására kis méretű lesz az ablak, „menu”, amely megjeleníti az ablak menüt, "
+"„lower”, amely az ablakot a többi ablak mögé viszi és „none”, amely nem hajt "
+"végre semmit."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:134
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:129
 msgid "Action on title bar right-click"
 msgstr "A címsoron való jobb gombos kattintáskor bekövetkező esemény"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:135
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:130
 msgid ""
 "This option determines the effects of right-clicking on the title bar. "
-"Current valid options are “toggle-shade”, which will shade/unshade the "
-"window, “toggle-maximize” which will maximize/unmaximize the window, “toggle-"
-"maximize-horizontally” and “toggle-maximize-vertically” which will maximize/"
-"unmaximize the window in that direction only, “minimize” which will minimize "
-"the window, “shade” which will roll the window up, “menu” which will display "
-"the window menu, “lower” which will put the window behind all the others, "
-"and “none” which will not do anything."
+"Current valid options are “toggle-maximize” which will maximize/unmaximize "
+"the window, “toggle-maximize-horizontally” and “toggle-maximize-vertically” "
+"which will maximize/unmaximize the window in that direction only, “minimize” "
+"which will minimize the window, “menu” which will display the window menu, "
+"“lower” which will put the window behind all the others, and “none” which "
+"will not do anything."
 msgstr ""
-"Ez az opció határozza meg, hogy mi történjen a címsoron való jobb gombos "
-"kattintás esetén. Jelenleg érvényes opciók a „toggle-shade”, amely hatására "
-"az ablak felgördül/legördül, a „toggle-maximize”, amely hatására teljes "
-"képernyős/eredeti méretű lesz, „toggle-maximize-horizontally” és „toggle-"
-"maximize-vertically”, amelyek hatására az ablak csak vízszintesen/"
-"függőlegesen lesz maximalizálva, „minimize”, amely hatására kis méretű lesz "
-"az ablak, „shade”, amely hatására az ablak felgördül, „menu”, amely "
-"megjeleníti az ablak menüt, „lower”, amely az ablakot a többi ablak mögé "
-"viszi és „none”, amely nem hajt végre semmit."
+"Ez a beállítás határozza meg, hogy mi történjen a címsoron való jobb gombos "
+"kattintás esetén. Jelenleg érvényes lehetőségek a „toggle-maximize”, amely "
+"hatására teljes képernyős/eredeti méretű lesz, „toggle-maximize-"
+"horizontally” és „toggle-maximize-vertically”, amelyek hatására az ablak "
+"csak vízszintesen/függőlegesen lesz maximalizálva, „minimize”, amely "
+"hatására kis méretű lesz az ablak, „menu”, amely megjeleníti az ablak menüt, "
+"„lower”, amely az ablakot a többi ablak mögé viszi és „none”, amely nem hajt "
+"végre semmit."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:159
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:152
 msgid "Automatically raises the focused window"
 msgstr "Automatikusan előtérbe hozza az aktív ablakot"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:160
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:153
 msgid ""
 "If set to true, and the focus mode is either “sloppy” or “mouse” then the "
 "focused window will be automatically raised after a delay specified by the "
@@ -3173,11 +3480,11 @@ msgstr ""
 "ablakra kattintáshoz annak előtérbe hozása érdekében, sem az ablakra "
 "mutatáshoz fogd és ejtsd művelet során."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:170
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:163
 msgid "Delay in milliseconds for the auto raise option"
 msgstr "Az automatikus előtérbe hozás opció késleltetése (ezredmásodpercben)"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:171
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:164
 msgid ""
 "The time delay before raising a window if auto-raise is set to true. The "
 "delay is given in thousandths of a second."
@@ -3185,11 +3492,11 @@ msgstr ""
 "Késleltetés (ezredmásodpercben) az ablak automatikus előtérbe hozása előtt, "
 "ha az auto-raise kulcs engedélyezett."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:178
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:171
 msgid "Current theme"
 msgstr "Jelenlegi téma"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:179
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:172
 msgid ""
 "The theme determines the appearance of window borders, titlebar, and so "
 "forth. DEPRECATED: This key is deprecated and ignored."
@@ -3197,11 +3504,11 @@ msgstr ""
 "A téma meghatározza az ablakkeretek, a címsor és sok más kinézetét. ELAVULT: "
 "Ez a kulcs elavult és mellőzött."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:188
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:181
 msgid "Use standard system font in window titles"
 msgstr "A rendszer szabvány betűkészletének használata az ablak címsorában"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:189
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:182
 msgid ""
 "If true, ignore the titlebar-font option, and use the standard application "
 "font for window titles."
@@ -3209,11 +3516,11 @@ msgstr ""
 "Ha igazra van állítva, a titlebar-font kulcs figyelmen kívül marad, és a "
 "szabvány alkalmazás betűkészletet használja az ablakok címsoraihoz."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:196
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:189
 msgid "Window title font"
 msgstr "Ablak címsorának betűkészlete"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:197
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:190
 msgid ""
 "A font description string describing a font for window titlebars. The size "
 "from the description will only be used if the titlebar-font-size option is "
@@ -3225,11 +3532,11 @@ msgstr ""
 "font-size kulcs értéke 0. Ez az opció le van tiltva, ha a titlebar-uses-"
 "desktop-font értéke igaz."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:207
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:200
 msgid "Number of workspaces"
 msgstr "Munkaterületek száma"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:208
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:201
 msgid ""
 "Number of workspaces. Must be more than zero, and has a fixed maximum to "
 "prevent making the desktop unusable by accidentally asking for too many "
@@ -3239,11 +3546,11 @@ msgstr ""
 "maximális értéke rögzített, megakadályozandó az asztali környezet "
 "használhatatlanná tételét túl sok munkaterület véletlen beállításával."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:216
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:209
 msgid "System Bell is Audible"
 msgstr "A rendszer hangjelzése hallható"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:217
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:210
 msgid ""
 "Determines whether applications or the system can generate audible “beeps”; "
 "may be used in conjunction with “visual bell” to allow silent “beeps”."
@@ -3252,11 +3559,11 @@ msgstr ""
 "hangjelzéseket, hasznos lehet a „látható rendszercsengővel” együtt "
 "alkalmazni, mert ennek segítségével lehetségesek a „néma hangjelzések” is."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:225
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:218
 msgid "Enable Visual Bell"
 msgstr "„Látható hangjelzés” engedélyezése"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:226
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:219
 msgid ""
 "Turns on a visual indication when an application or the system issues a "
 "“bell” or “beep”; useful for the hard-of-hearing and for use in noisy "
@@ -3265,11 +3572,11 @@ msgstr ""
 "Látható jelzést ad, amikor egy alkalmazás vagy a rendszer „hangjelzést” adna "
 "ki; ez hasznos lehet a nagyothallók számára vagy zajos környezetben."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:235
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:228
 msgid "Visual Bell Type"
 msgstr "Látható hangjelzés típusa"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:236
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:229
 msgid ""
 "Tells the WM how to implement the visual indication that the system bell or "
 "another application “bell” indicator has been rung. Currently there are two "
@@ -3287,13 +3594,13 @@ msgstr ""
 "alkalmazás ismeretlen (amely általános a rendszer alapértelmezett "
 "„hangjelzése” esetén), akkor a jelenleg aktív ablak címsora fog felvillanni."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:257
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:250
 msgid "Disable misfeatures that are required by old or broken applications"
 msgstr ""
 "Azon hibás funkciók letiltása, amelyeket régi vagy hibás alkalmazások "
 "használnak"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:260
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:253
 msgid ""
 "Some applications disregard specifications in ways that result in window "
 "manager misfeatures. This option puts the WM in a rigorously correct mode, "
@@ -3306,11 +3613,11 @@ msgstr ""
 "felhasználói felületet eredményez, feltéve hogy nem kell hibásan működő "
 "alkalmazásokat futtatnia."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:270
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:263
 msgid "The names of the workspaces"
 msgstr "A munkaterületek nevei"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:271
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:264
 msgid ""
 "Defines the names that should be assigned to workspaces. If the list is too "
 "long for the current number of workspaces, names in excess will be ignored. "
@@ -3423,13 +3730,16 @@ msgstr ""
 "címek hálózati maszkkal (pl. 192.168.0.0/24)."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:56
+msgid "Use HTTP proxy for all protocols"
+msgstr "HTTP proxy használata az összes protokollhoz"
+
+#: schemas/org.gnome.system.proxy.gschema.xml.in:57
+msgid "Whether to use the HTTP proxy for all protocols or not."
+msgstr "Használja-e a HTTP proxyt az összes protokollhoz vagy ne."
+
 #: schemas/org.gnome.system.proxy.gschema.xml.in:65
 msgid "Unused; ignore"
 msgstr "Nincs használatban, mellőzendő"
-
-#: schemas/org.gnome.system.proxy.gschema.xml.in:57
-msgid "This key is not used, and should not be read or modified."
-msgstr "Ez a kulcs nincs használatban és nem olvasható vagy módosítható."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:66
 msgid ""
@@ -3545,3 +3855,4 @@ msgid ""
 "The port on the machine defined by “/system/proxy/socks/host” that you proxy "
 "through."
 msgstr "A „/system/proxy/socks/host” kulcsban proxyként megadott gép portja."
+

@@ -1,3 +1,118 @@
+Major changes in 47.1
+===================
+- meson: Fix project version
+
+Major changes in 47.0
+===================
+- Translation updates
+
+Major changes in 47.rc
+======================
+- Translation updates
+
+Major changes in 47.beta
+========================
+- Add break-reminder schema
+- Provide a new pressure range for styli
+- Add SwitchMonitor and Keybinding to the tablet stylus actions
+- Switch back to Cantarell font
+- Translation updates
+
+Major changes in 47.alpha
+=========================
+- Add key to tweak font rendering
+- Include Settings in sort order
+- Add key to pick accent color
+- Translation updates
+
+Major changes in 46.0
+=====================
+- Translation updates
+
+Major changes in 46.rc
+======================
+- Make default clock format overridable by translators
+- Translation updates
+
+Major changes in 46.beta
+========================
+- Add key to modify XKB options
+- Add key to indicate whether switches should indicate
+  state with shapes
+- Translation updates
+
+Major changes in 46.alpha
+=========================
+- Update default background file extension to jxl
+- Translation updates
+
+Major changes in 45.0
+=====================
+- Translation updates
+
+Major changes in 45.rc
+======================
+- Translation updates
+
+Major changes in 45.beta
+========================
+- Translation updates
+
+Major changes in 45.alpha
+=========================
+- Revert back to jpeg wallpapers
+- Update focus-new-window description to new behavior
+- Remove window shading
+- Change default to not autostart software from media
+- Translation updates
+
+Major changes in 44.0
+=====================
+- Translation updates
+
+Major changes in 44.beta
+========================
+- Build improvements
+- Translation updates
+
+Major changes in 43.0
+=====================
+- Translation updates
+
+Major changes in 43.rc.1
+========================
+- Update default background file extension to webp
+- Translation updates
+
+Major changes in 43.rc
+======================
+- Add setting for touchpad acceleration profiles
+- Add specific schema for trackpoint pointer devices
+- Translation updates
+
+Major changes in 43.alpha
+=========================
+- Fix description of use-same-proxy setting
+- Translation updates
+
+Major changes in 42.0
+=====================
+- Translation updates
+
+Major changes in 42.rc
+======================
+- Translation updates
+
+Major changes in 42.beta
+========================
+- Add setting to control privacy screen feature
+- Translation updates
+
+Major changes in 42.alpha
+=========================
+- Add color scheme setting and high-contrast preference
+- Translation updates
+
 Major changes in 41.0
 =====================
 - Translation updates

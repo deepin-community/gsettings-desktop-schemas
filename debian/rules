@@ -2,3 +2,6 @@
 
 %:
 	dh $@
+
+override_dh_gnome_clean:
+	dh_gnome_clean --no-control
