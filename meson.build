@@ -1,15 +1,21 @@
 project(
   'gsettings-desktop-schemas', 'c',
-  version: '41.0',
+  version: '47.1',
   default_options: [
     'warning_level=2'
   ],
   license: 'LGPL',
-  meson_version: '>= 0.50.0'
+  meson_version: '>= 0.57.0'
 )
 
 gsettings_desktop_schemas_name = meson.project_name()
 gsettings_desktop_schemas_version = meson.project_version()
+
+# Make sure the version always has a trailing N.0 so that
+# it can be sorted properly when comparing to N.alpha and so on.
+#
+# See https://gitlab.gnome.org/GNOME/gsettings-desktop-schemas/-/issues/66
+assert(meson.project_version().split('.').length() > 1)
 
 message('Building ' + gsettings_desktop_schemas_name + ' ' + gsettings_desktop_schemas_version)
 
@@ -47,6 +53,6 @@ subdir('headers')
 subdir('schemas')
 subdir('po')
 
-# Keep this in sync with post-install.py expected arguments
-meson.add_install_script('build-aux/meson/post-install.py',
-                         datadir)
+gnome.post_install(
+  glib_compile_schemas: true,
+)
