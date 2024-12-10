@@ -1,26 +1,28 @@
 # gsettings-desktop-schemas's Portuguese translation.
-# Copyright © 2012, 2013, 2014 gsettings-desktop-schemas
+# Copyright © 2012-2022 gsettings-desktop-schemas
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
 # Duarte Loreto <happyguy_pt@hotmail.com>, 2012, 2013, 2014.
 # Tiago Santos <tiagofsantos81@sapo.pt>, 2014 - 2016.
 # Pedro Albuquerque <palbuquerque73@gmail.com>, 2015.
 # Juliano de Souza Camargo <julianosc@pm.me>, 2020.
+# Hugo Carvalho <hugokarvalho@hotmail.com>, 2020, 2021, 2022, 2023, 2024.
+# João Carvalhinho <joao.carvalhinho@gmail.com>, 2024.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: 3.12\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
-"schemas/issues\n"
-"POT-Creation-Date: 2021-08-25 13:31+0000\n"
-"PO-Revision-Date: 2021-08-26 15:32+0100\n"
+"schemas/issues/\n"
+"POT-Creation-Date: 2024-08-31 20:08+0000\n"
+"PO-Revision-Date: 2024-09-01 23:12+0100\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
-"Language-Team: Portuguese <>\n"
+"Language-Team: Portuguese (https://l10n.gnome.org/teams/pt/)\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.0\n"
+"X-Generator: Poedit 3.4.2\n"
 "X-Project-Style: gnome\n"
 
 #: schemas/org.gnome.desktop.a11y.applications.gschema.xml.in:6
@@ -56,8 +58,9 @@ msgid ""
 "This key overrides the automatic hiding of the Universal Access status icon "
 "when no accessibility features are enabled."
 msgstr ""
-"Esta chave sobrepõe-se ao esconder automático do ícone de estado do acesso "
-"universal quando nenhuma funcionalidade de acessibilidade está ativa."
+"Esta tecla substitui a ocultação automática do ícone de estado do Acesso "
+"Universal quando não estão ativadas quaisquer funcionalidades de "
+"acessibilidade."
 
 #: schemas/org.gnome.desktop.a11y.gschema.xml.in:14
 msgid "Always show the text caret"
@@ -68,8 +71,25 @@ msgid ""
 "This key overrides the hiding of the text caret in noneditable text in "
 "applications."
 msgstr ""
-"Esta chave sobrepões o esconder o cursor de texto em texto não editável em "
-"aplicações."
+"Esta tecla substitui a ocultação do cursor de texto em texto não editável "
+"nas aplicações."
+
+#: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:6
+msgid "High contrast"
+msgstr "Alto contraste"
+
+#: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:7
+msgid "Whether to use the high contrast style."
+msgstr "Se deve usar o estilo de alto contraste."
+
+#: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:13
+msgid "Show status shapes"
+msgstr "Mostrar formas nos estados"
+
+#: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:14
+msgid ""
+"Whether to use shapes to indicate status in addition or instead of color."
+msgstr "Usar formas para indicar um estado em adição ou em vez de apenas cor."
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:6
 msgid "Enable accessibility keyboard shortcuts"
@@ -110,12 +130,12 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:25
 msgid "Enable “Bounce Keys”"
-msgstr "Ativar as “Teclas Saltantes”"
+msgstr "Ativar as “Teclas Saltitantes”"
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:26
 msgid "Whether the “Bounce Keys” keyboard accessibility feature is turned on."
 msgstr ""
-"Se a funcionalidade de acessibilidade de teclado “Teclas Saltantes” está "
+"Se a funcionalidade de acessibilidade de teclado “Teclas Saltitantes” está "
 "ativa ou não."
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:30
@@ -720,9 +740,9 @@ msgid ""
 "values are “none”, “wallpaper”, “centered”, “scaled”, “stretched”, “zoom”, "
 "“spanned”."
 msgstr ""
-"Determina como é desenhada a imagem definida pelo wallpaper_filename. "
-"Valores possíveis são “none”, “wallpaper”, “centered”, “scaled”, "
-"“stretched”, “zoom”, “spanned”."
+"Determina como é desenhada a imagem definida pelo nome do "
+"ficheiro_do_papel_de_parede. Valores possíveis são “nenhum”, “papel de "
+"parede”, “centrado”, “escalado”, “esticado”, “zoom”, “expandido”."
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:15
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:99
@@ -730,51 +750,56 @@ msgid "Picture URI"
 msgstr "URI da imagem"
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:16
+#: schemas/org.gnome.desktop.background.gschema.xml.in:24
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:100
 msgid ""
 "URI to use for the background image. Note that the backend only supports "
 "local (file://) URIs."
 msgstr ""
-"URI a utilizar para a imagem de fundo. Note que o motor só suporta URIs "
+"URI a utilizar para a imagem de fundo. Note que o motor apenas suporta URIs "
 "locais (file://)."
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:24
+#: schemas/org.gnome.desktop.background.gschema.xml.in:23
+msgid "Picture URI (dark)"
+msgstr "Imagem URI (escuro)"
+
+#: schemas/org.gnome.desktop.background.gschema.xml.in:32
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:108
 msgid "Picture Opacity"
 msgstr "Opacidade da imagem"
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:25
+#: schemas/org.gnome.desktop.background.gschema.xml.in:33
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:109
 msgid "Opacity with which to draw the background picture."
 msgstr "Opacidade com que desenhar a imagem de fundo."
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:31
+#: schemas/org.gnome.desktop.background.gschema.xml.in:39
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:115
 msgid "Primary Color"
 msgstr "Cor primária"
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:32
+#: schemas/org.gnome.desktop.background.gschema.xml.in:40
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:116
 msgid "Left or Top color when drawing gradients, or the solid color."
 msgstr "Cor esquerda ou de topo ao desenhar gradientes, ou cor sólida."
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:38
+#: schemas/org.gnome.desktop.background.gschema.xml.in:46
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:122
 msgid "Secondary Color"
 msgstr "Cor secundária"
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:39
+#: schemas/org.gnome.desktop.background.gschema.xml.in:47
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:123
 msgid "Right or Bottom color when drawing gradients, not used for solid color."
 msgstr ""
 "Cor direita ou de fundo ao desenhar gradientes, não utilizado na cor sólida."
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:45
+#: schemas/org.gnome.desktop.background.gschema.xml.in:53
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:129
 msgid "Color Shading Type"
 msgstr "Tipo de sombreado de cor"
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:46
+#: schemas/org.gnome.desktop.background.gschema.xml.in:54
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:130
 msgid ""
 "How to shade the background color. Possible values are “horizontal”, "
@@ -783,15 +808,125 @@ msgstr ""
 "Como sombrear a cor de fundo. Valores possíveis são “horizontal”, "
 "“vertical”, e “solid”."
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:53
+#: schemas/org.gnome.desktop.background.gschema.xml.in:61
 msgid "Have file manager handle the desktop"
 msgstr "Gestor de ficheiros gere o ambiente de trabalho"
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:54
+#: schemas/org.gnome.desktop.background.gschema.xml.in:62
 msgid "If set to true, then file manager will draw the icons on the desktop."
 msgstr ""
 "Se definido como verdadeiro, o gestor de ficheiros irá desenhar os ícones na "
 "área de trabalho."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:10
+msgid "List of breaks that are currently enabled"
+msgstr "Lista de pausas que estão atualmente ativadas"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:22
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:87
+msgid "Time between breaks"
+msgstr "Tempo entre pausas"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:23
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:88
+msgid "The time between rest breaks, in seconds."
+msgstr "Tempo entre pausas, em milissegundos."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:29
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:94
+msgid "Duration of each break"
+msgstr "Duração de cada pausa"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:30
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:95
+msgid "The duration of each rest break, in seconds."
+msgstr "A duração de cada pausa para descanso, em segundos."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:36
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:101
+msgid "Amount to delay break if requested"
+msgstr "Valor para atrasar a pausa, se solicitado"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:37
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:102
+msgid ""
+"The amount to delay taking the break by, if the user requests a delay, in "
+"seconds."
+msgstr ""
+"O valor para atrasar a pausa, se o utilizador pedir um atraso, em segundos."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:43
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:108
+msgid "Fade screen during breaks"
+msgstr "Escurecer o ecrã durante as pausas"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:44
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:109
+msgid "True to fade the screen during rest breaks."
+msgstr "Verdadeiro para esbater o ecrã durante os intervalos de descanso."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:49
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:114
+msgid "Lock screen during breaks"
+msgstr "Bloquear o ecrã durante as pausas"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:50
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:115
+msgid "True to lock the screen during rest breaks."
+msgstr "Verdadeiro para bloquear o ecrã durante as pausas."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:55
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:120
+msgid "Play sound when a break finishes"
+msgstr "Reproduzir um som quando uma pausa termina"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:56
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:121
+msgid "True to play a sound when a break finishes."
+msgstr "Verdadeiro para reproduzir um som quando uma pausa termina."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:61
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:79
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:126
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:144
+msgid "Notify when a break is due"
+msgstr "Notificar quando uma pausa é esperada"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:62
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:127
+msgid "True to emit a notification when a break is due to start."
+msgstr ""
+"Verdadeiro para emitir uma notificação quando uma pausa está prestes a "
+"começar."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:67
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:132
+msgid "Notify when a break is upcoming"
+msgstr "Notificar quando se aproxima uma pausa"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:68
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:133
+msgid "True to emit a notification a few minutes before a break is due."
+msgstr ""
+"Verdadeiro para emitir uma notificação alguns minutos antes do início de uma "
+"pausa."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:73
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:138
+msgid "Notify when a break is overdue"
+msgstr "Notificar quando uma pausa está atrasada"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:74
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:139
+msgid "True to emit a notification when a break is overdue."
+msgstr "Verdadeiro para emitir uma notificação quando uma pausa está atrasada."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:80
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:145
+msgid "True to show a prominent countdown shortly before a break is due."
+msgstr ""
+"Verdadeiro para mostrar uma contagem decrescente proeminente pouco antes do "
+"início de uma pausa."
 
 #: schemas/org.gnome.desktop.calendar.gschema.xml.in:6
 msgid "Show the week date in the calendar"
@@ -920,8 +1055,8 @@ msgid ""
 msgstr ""
 "Lista de identificadores de origens de entrada disponíveis. Cada origem é "
 "especificada como um conjunto de 2 cadeias. A primeira cadeia é o tipo e "
-"pode ser “xkb” ou “ibus”. Para origens “xkb” a segunda cadeia é “xkb_layout"
-"+xkb_variant” ou apenas “xkb_layout”, se uma variante XKB não for "
+"pode ser “xkb” ou “ibus”. Para origens “xkb” a segunda cadeia é "
+"“xkb_layout+xkb_variant” ou apenas “xkb_layout”, se uma variante XKB não for "
 "necessária. Para origens “ibus” a segunda cadeia é o nome do motor IBus. Uma "
 "lista vazia significa que a disposição XKB atual e variante do servidor X "
 "não serão tocadas e o IBus não será utilizado."
@@ -951,21 +1086,33 @@ msgstr ""
 "pelos ficheiros de regras xkeyboard-config."
 
 #: schemas/org.gnome.desktop.input-sources.gschema.xml.in:49
+msgid "XKB model to use"
+msgstr "Modelo XKB a usar"
+
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:50
+msgid ""
+"The XKB model to use. The value is the same identifier as defined by "
+"xkeyboard-config’s geometry files."
+msgstr ""
+"Qual o modelo XKB a usar. O valor é o mesmo identificador tal como definido "
+"nos ficheiros de geometria do xkeyboard-config."
+
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:57
 msgid "Show all installed input sources"
 msgstr "Mostrar todas as origens de entrada instaladas"
 
-#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:50
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:58
 msgid ""
 "Makes all installed input sources available for choosing in System Settings."
 msgstr ""
 "Torna todas as origens de entrada instaladas disponíveis para seleção nas "
 "definições de sistema."
 
-#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:57
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:65
 msgid "Use different input sources for each window"
 msgstr "Utilizar diferentes origens de entrada para cada janela"
 
-#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:58
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:66
 msgid ""
 "When enabled, input sources get attached to the currently focused window "
 "when activated."
@@ -1048,7 +1195,7 @@ msgstr "Tamanho dos ícones da barra de ferramentas"
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:59
 msgid "Size of icons in toolbars, either “small” or “large”."
-msgstr "Tamanho dos ícones nas barras de ferramentas, “small” ou “large”."
+msgstr "Tamanho dos ícones nas barras de ferramentas, “pequenos” ou “grandes”."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:65
 msgid "Cursor Blink"
@@ -1149,8 +1296,8 @@ msgstr "Estilo de pré-edição do MI do GTK"
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:140
 msgid "Name of the GTK+ input method Preedit Style used by gtk+."
 msgstr ""
-"Nome do estilo de pré-edição do método de introdução GTK+ utilizado pelo gtk"
-"+."
+"Nome do estilo de pré-edição do método de introdução GTK+ utilizado pelo "
+"gtk+."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:146
 msgid "GTK IM Status Style"
@@ -1262,40 +1409,45 @@ msgstr ""
 "Uma lista separada por “\\n” de “name:color” tal como definida pela chave "
 "“gtk-color-scheme”"
 
+#. TRANSLATORS: select your locale's default clock format, this should be '12h' or '24h' (with the quotes!)
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:212
+msgid "'24h'"
+msgstr "‘24h’"
+
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:213
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:214
 msgid "Whether the clock displays in 24h or 12h format"
 msgstr "Se o relógio usa o formato 24h ou 12h"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:219
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:220
 msgid "Whether the clock shows seconds"
 msgstr "Se o relógio mostra ou não os segundos"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:220
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:221
 msgid "If true, display seconds in the clock."
 msgstr "Se verdadeiro, mostra os segundos no relógio."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:226
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:227
 msgid "Show date in clock"
 msgstr "Mostrar data no relógio"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:227
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:228
 msgid "If true, display date in the clock, in addition to time."
 msgstr "Se verdadeiro, além da hora mostrar a data no relógio."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:233
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:234
 msgid "Show weekday in clock"
 msgstr "Mostrar dia da semana no relógio"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:234
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:235
 msgid "If true, display weekday in the clock, in addition to time."
 msgstr "Se verdadeiro, mostra o dia da semana no relógio além das horas."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:240
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:241
 msgid "Enable hot corners"
 msgstr "Ativar canto reativo"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:241
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:242
 msgid ""
 "If true, the activities overview can be accessed by moving the mouse to the "
 "top-left corner."
@@ -1303,11 +1455,11 @@ msgstr ""
 "Se verdadeiro, o resumo de atividades pode ser acedido ao mover o rato ao "
 "canto superior esquerdo."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:248
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:249
 msgid "Show battery percentage"
 msgstr "Mostrar percentagem da bateria"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:249
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:250
 msgid ""
 "If true, display battery percentage in the status menu, in addition to the "
 "icon."
@@ -1315,11 +1467,11 @@ msgstr ""
 "Se verdadeiro, mostra a percentagem da bateria no menu de estado, além do "
 "ícone."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:255
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:256
 msgid "Enable the primary paste selection"
 msgstr "Ativar a cópia primária da seleção"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:256
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:257
 msgid ""
 "If true, gtk+ uses the primary paste selection, usually triggered by a "
 "middle mouse button click."
@@ -1327,11 +1479,11 @@ msgstr ""
 "Se verdadeiro, o gtk+ usa a cópia primária da seleção, geralmente ativada "
 "quando há um clique no botão do meio do rato."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:262
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:263
 msgid "Allow overlay scrolling"
 msgstr "Permitir sobreposição de rolamento"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:263
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:264
 msgid ""
 "Whether scrollbars should be overlayed as indicators. Depending on input "
 "devices in use, permanent scrollbars may still be displayed."
@@ -1340,11 +1492,11 @@ msgstr ""
 "dos dispositivos de entrada em uso, barras de rolamento permanentes podem "
 "ainda serem vistas."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:271
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:272
 msgid "Highlights the current location of the pointer."
 msgstr "Realçar a posição atual do ponteiro."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:272
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:273
 msgid ""
 "If true, pressing a key will highlight the current pointer location on "
 "screen."
@@ -1352,11 +1504,11 @@ msgstr ""
 "Se verdadeiro, carregar uma tecla há de realçar a posição atual do ponteiro "
 "no ecrã."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:278
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:279
 msgid "Antialiasing"
 msgstr "Suavização"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:279
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:280
 msgid ""
 "The type of antialiasing to use when rendering fonts. Possible values are: "
 "“none” for no antialiasing, “grayscale” for standard grayscale antialiasing, "
@@ -1367,11 +1519,11 @@ msgstr ""
 "escala de cinza padrão e \"rgba\" para suavização subpixel (apenas ecrãs "
 "LCD)."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:285
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:286
 msgid "Hinting"
 msgstr "Alisamento"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:286
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:287
 msgid ""
 "The type of hinting to use when rendering fonts. Possible values are: “none” "
 "for no hinting and “slight” for fitting only to the Y-axis like Microsoft’s "
@@ -1396,11 +1548,11 @@ msgstr ""
 "inconsistente dependendo da qualidade da fonte, do formato da fonte e do "
 "estado dos motores de fonte do FreeType."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:292
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:293
 msgid "RGBA order"
 msgstr "Ordem RGBA"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:293
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:294
 msgid ""
 "The order of subpixel elements on an LCD screen; only used when antialiasing "
 "is set to “rgba”. Possible values are: “rgb” for red on left (most common), "
@@ -1408,8 +1560,53 @@ msgid ""
 msgstr ""
 "A ordem dos elementos subpixel num ecrã LCD; usado apenas quando a "
 "suavização está definida para \"rgba\". Os valores possíveis são: \"rgb\" "
-"para vermelho à esquerda (mais comum), \"bgr\" para azul à esquerda, \"vrgb"
-"\" para vermelho em cima, \"vbgr\" para vermelho em baixo."
+"para vermelho à esquerda (mais comum), \"bgr\" para azul à esquerda, "
+"\"vrgb\" para vermelho em cima, \"vbgr\" para vermelho em baixo."
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:300
+msgid "Color scheme"
+msgstr "Esquema de cores"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:301
+msgid ""
+"The preferred color scheme for the user interface. Valid values are "
+"“default”, “prefer-dark”, “prefer-light”."
+msgstr ""
+"O esquema de cores preferido para a interface do utilizador. Os valores "
+"válidos são \"predefinido\", \"preferir-escuro\", \"preferir-claro\"."
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:307
+msgid "Font rendering"
+msgstr "Renderização de letras"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:308
+msgid ""
+"Preference to indicate whether font rendering should follow the low-level "
+"`font-hinting` and `font-antialiasing` and `font-rgba-order` settings, or "
+"take environmental factors such as screen resolution and scaling into "
+"account. Possible values are: \"manual\" for respecting the low-level "
+"settings, or \"automatic\" for letting the toolkit make its own decisions."
+msgstr ""
+"Preferência para indicar se a renderização das letras deve seguir as "
+"configurações de baixo nível para font-hinting`, `font-antialiasing` e `font-"
+"rgba-order`, ou ter os fatores ambientais como a resolução de ecrã e a "
+"escala em consideração. Os valores possíveis são: \"manual\" para respeitar "
+"as configurações de baixo nível, ou \"automatic\" para permitir que o "
+"conjunto de ferramentas tome a decisão por si."
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:316
+msgid "Accent color"
+msgstr "Cor de destaque"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:317
+msgid ""
+"The preferred accent color for the user interface. Valid values are "
+"\"blue\", \"teal\", \"green\", \"yellow\", \"orange\", \"red\", \"pink\", "
+"\"purple\", \"slate\"."
+msgstr ""
+"A cor de destaque preferida para a interface do utilizador. Os valores "
+"válidos são \"azul\", \"verde-azulado\", \"verde\", \"amarelo\", "
+"\"laranja\", \"vermelho\", \"rosa\", \"púrpura\", \"ardósia\"."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:6
 msgid "Disable command line"
@@ -1711,11 +1908,11 @@ msgstr ""
 "Se o resumo e corpo das notificações desta aplicação são ou não visíveis no "
 "ecrã bloqueado."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:14
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:15
 msgid "Whether edge scrolling is enabled"
 msgstr "Se o rolar das margens está ativo"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:15
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:16
 msgid ""
 "When enabled, touchpads that support edge scrolling will have that feature "
 "enabled."
@@ -1723,11 +1920,11 @@ msgstr ""
 "Quandi ativo, os touchpads que suportam rolamento das margens terão essa "
 "funcionalidade ativa."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:19
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:20
 msgid "Whether two-finger scrolling is enabled"
 msgstr "Se o deslocamento de dois dedos está ativado"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:20
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:21
 msgid ""
 "When enabled, touchpads that support two-finger scrolling will have that "
 "feature enabled."
@@ -1735,32 +1932,32 @@ msgstr ""
 "Quando inativo, os touchpads que suportam rolamento com dois dedos terão "
 "essa funcionalidade ativa."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:24
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:25
 msgid "Whether to disable the touchpad while typing"
 msgstr "Se deve desativar o rato por toque ao digitar"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:25
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:26
 msgid "When enabled, touchpads will be disabled while typing on the keyboard."
 msgstr ""
 "Quando ativado, ratos por toque serão desativados enquanto estiver a digitar "
 "no teclado."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:29
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:30
 msgid "Enable mouse clicks with touchpad"
 msgstr "Permitir cliques do rato com o touchpad"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:30
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:31
 msgid ""
 "Set this to TRUE to be able to send mouse clicks by tapping on the touchpad."
 msgstr ""
 "Defina como VERDADEIRO para poder enviar cliques do rato ao bater no "
 "touchpad."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:34
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:35
 msgid "Tap Button Map"
 msgstr "Mapa de botão de toque"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:35
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:36
 msgid ""
 "Defines the mapping between the number of fingers and touchpad buttons. The "
 "default is to have a 1, 2 and 3 finger tap to map to the left, right and "
@@ -1770,11 +1967,11 @@ msgstr ""
 "predefinição é haver 1, 2 e 3 toques de dedo para mapear os botões esquerdo, "
 "direito e médio (\"lrm\"), respetivamente."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:39
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:40
 msgid "Enable tap-and-drag with touchpad"
 msgstr "Permitir tocar e arrastar com rato por toque"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:40
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:41
 msgid ""
 "Set this to TRUE to be able to start a drag by tapping and immediately "
 "moving the finger that’s now pressed on the touchpad."
@@ -1782,11 +1979,11 @@ msgstr ""
 "Defina como VERDADEIRO para poder arrastar ao bater no rato por toque e, "
 "imediatamente, mover o dedo que está a carregar no rato por toque."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:44
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:45
 msgid "Enable tap-and-drag-lock with touchpad"
 msgstr "Permitir bloquear o tocar e arrastar com rato por toque"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:45
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:46
 msgid ""
 "Set this to TRUE to lock the dragging process within a short timeout when "
 "the finger is lifted on the touchpad and the tap-and-drag setting is enabled."
@@ -1795,19 +1992,19 @@ msgstr ""
 "compasso de espera quando o dedo é levantado do rato por toque e a definição "
 "de tocar e arrastar está ativa."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:49
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:50
 msgid "Touchpad enabled"
 msgstr "Touchpad ativado"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:50
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:51
 msgid "Defines the situations in which the touchpad is enabled."
 msgstr "Define as situações em que o touchpad está ativado."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:54
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:55
 msgid "Touchpad button orientation"
 msgstr "Orientação dos botões do touchpad"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:55
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:56
 msgid ""
 "Swap left and right mouse buttons for left-handed mice with “left”, “right” "
 "for right-handed, “mouse” to follow the mouse setting."
@@ -1815,12 +2012,39 @@ msgstr ""
 "Trocar os botões esquerdo e direito com “left” para ratos canhotos, “right” "
 "para ratos destros e “mouse” para seguir a predefinição."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:59
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:114
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:60
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:131
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:261
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:279
+msgid "Acceleration profile"
+msgstr "Perfil de aceleração"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:61
+msgid ""
+"Acceleration profile used for connected touchpads. The acceleration profile "
+"can be set to either default (“default”) which uses the default acceleration "
+"profile for each device, flat (“flat”), which accelerates by a device "
+"specific constant factor derived from the configured pointer speed, or "
+"adaptive (“adaptive”) which adapts the acceleration depending on the mouse "
+"movement. If a touchpad doesn’t support the configured profile, “default” "
+"will be used."
+msgstr ""
+"Perfil de aceleração utilizado para os painéis táteis ligados. O perfil de "
+"aceleração pode ser definido para qualquer predefinição (“predefinido”) que "
+"utilize o perfil de aceleração predefinido para cada dispositivo, plano "
+"(“planot”), que acelera por um fator constante especifico do dispositivo "
+"derivado a partir da velocidade do ponteiro configurado, ou adaptativa "
+"(“adaptativa”) que se adapta a aceleração em função do movimento do rato. Se "
+"um painel tátil não suporta o perfil configurado, será utilizado o "
+"“predefinido”."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:65
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:120
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:273
 msgid "Pointer speed"
 msgstr "Velocidade do ponteiro"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:60
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:66
 msgid ""
 "Pointer speed for the touchpad. Accepted values are in the [-1..1] range "
 "(from “unaccelerated” to “fast”). A value of 0 is the system default."
@@ -1829,21 +2053,21 @@ msgstr ""
 "intervalo [-1..1] (de “desacelerado” a “rápido”). 0 é a predefinição do "
 "sistema."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:65
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:120
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:71
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:126
 msgid "Natural scrolling"
 msgstr "Rolamento natural"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:66
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:72
 msgid "Set this to TRUE to enable natural (reverse) scrolling for touchpads."
 msgstr ""
 "Defina como VERDADEIRO para ativar o rolamento natural (inverso) do touchpad."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:70
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:76
 msgid "Click method"
 msgstr "Método de clique"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:71
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:77
 msgid ""
 "How to generate software-emulated buttons, either disabled (“none”), through "
 "specific areas (“areas”), number of fingers (“fingers”) or left as hardware "
@@ -1853,15 +2077,15 @@ msgstr ""
 "(“areas”), número de dedos (“fingers”) ou manter a predefinição do "
 "equipamento (“default”)."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:75
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:130
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:235
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:81
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:136
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:266
 msgid "Emulate middle click"
 msgstr "Emular o clique do meio"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:76
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:131
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:236
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:82
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:137
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:267
 msgid ""
 "Set this to TRUE to enable middle click during simultaneous left and right "
 "click."
@@ -1869,35 +2093,35 @@ msgstr ""
 "Defina como VERDADEIRO para ativar o clique do meio ao carregar "
 "simultaneamente esquerda e direita."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:82
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:88
 msgid "Keyboard repeat"
 msgstr "Repetição do teclado"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:83
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:89
 msgid "Set this to TRUE to enable keyboard repeat."
 msgstr "Defina como VERDADEIRO para permitir a repetição do teclado."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:87
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:93
 msgid "Key Repeat Interval"
 msgstr "Intervalo de repetição do teclado"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:88
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:94
 msgid "Delay between repeats in milliseconds."
 msgstr "Tempo entre repetições, em milissegundos."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:92
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:98
 msgid "Initial Key Repeat Delay"
 msgstr "Tempo de repetição da tecla inicial"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:93
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:99
 msgid "Initial key repeat delay in milliseconds."
 msgstr "Tempo de repetição da tecla inicial, em milissegundos."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:97
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:103
 msgid "Remember NumLock state"
 msgstr "Lembrar o estado do NumLock"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:98
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:104
 msgid ""
 "When set to true, GNOME will remember the state of the NumLock LED between "
 "sessions."
@@ -1905,23 +2129,23 @@ msgstr ""
 "Quando definido como verdadeiro, o GNOME há de lembra-se do último estado do "
 "LED NumLock entre as sessões."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:102
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:108
 msgid "NumLock state"
 msgstr "Estado do NumLock"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:103
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:109
 msgid "The remembered state of the NumLock LED."
 msgstr "O estado guardado do LED NumLock."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:109
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:115
 msgid "Mouse button orientation"
 msgstr "Orientação dos botões do rato"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:110
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:116
 msgid "Swap left and right mouse buttons for left-handed mice."
 msgstr "Trocar botões direito e esquerdo para ratos canhotos."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:115
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:121
 msgid ""
 "Pointer speed for mice. Accepted values are in the [-1..1] range (from "
 "“unaccelerated” to “fast”). A value of 0 is the system default."
@@ -1929,17 +2153,12 @@ msgstr ""
 "A velocidade do ponteiro do rato. Valores aceites estão no intervalo [-1..1] "
 "(de “desacelerado” a “rápido”). 0 é a predefinição do sistema."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:121
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:127
 msgid "Set this to TRUE to enable natural (reverse) scrolling for mice."
 msgstr ""
 "Defina como VERDADEIRO para ativar o rolamento natural (inverso) do rato."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:125
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:230
-msgid "Acceleration profile"
-msgstr "Perfil de aceleração"
-
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:126
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:132
 msgid ""
 "Acceleration profile used for connected mice. The acceleration profile can "
 "be set to either default (“default”) which uses the default acceleration "
@@ -1957,27 +2176,27 @@ msgstr ""
 "adapta a aceleração em função do movimento do rato. Se um rato não suporta o "
 "perfil configurado, será utilizado o “default”."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:135
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:141
 msgid "Double click time"
 msgstr "Tempo de duplo clique"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:136
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:142
 msgid "Length of a double click in milliseconds."
 msgstr "Duração de um duplo clique em milissegundos."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:140
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:146
 msgid "Drag threshold"
 msgstr "Limite de arrasto"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:141
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:147
 msgid "Distance before a drag is started."
 msgstr "Distância antes do início do arrasto."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:147
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:153
 msgid "Drawing tablet mapping"
 msgstr "Mapa da prancheta de desenho"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:148
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:154
 msgid ""
 "EDID information of the output the tablet is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic "
@@ -1987,19 +2206,19 @@ msgstr ""
 "estar no formato [fabricante, produto, nº de série]. [\"\",\"\",\"\"] "
 "desativa o mapeamento."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:152
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:158
 msgid "Tablet mapping"
 msgstr "Mapa da prancheta de desenho"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:153
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:159
 msgid "How input affects the pointer on the screen"
 msgstr "Como a entrada afeta o ponteiro no ecrã"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:157
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:163
 msgid "Tablet area"
 msgstr "Área da prancheta de desenho"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:158
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:164
 msgid ""
 "Dead area padding around the active area, in percentages. Respectively "
 "applied to left,right,top and bottom sides."
@@ -2007,11 +2226,11 @@ msgstr ""
 "Preenchimento de zona morta em volta da área ativa, em percentagens. "
 "Aplicado respetivamente à esquerda, direita, topo e fundo."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:162
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:168
 msgid "Tablet aspect ratio"
 msgstr "Proporção da prancheta de desenho"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:163
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:169
 msgid ""
 "Enable this to restrict the tablet area to match the aspect ratio of the "
 "output."
@@ -2019,52 +2238,69 @@ msgstr ""
 "Ative isto para restringir a área do tablet de desenho de forma a "
 "corresponder a proporção à saída."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:167
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:173
 msgid "Tablet left-handed mode"
 msgstr "Modo de prancheta de desenho para esquerdinos"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:168
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:174
 msgid ""
 "Enable this to allow physically rotating the tablet for left-handed setups"
 msgstr ""
 "Ative isto para permitir rodar fisicamente a prancheta de desenho para "
 "disposições para esquerdinos"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:174
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:180
 msgid "Stylus pressure curve"
 msgstr "Curva de pressão da caneta"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:175
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:181
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the stylus."
 msgstr ""
 "Defina isto para x1, y1 e x2, y2 da curva de pressão aplicada à caneta."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:179
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:185
+msgid "Stylus pressure range"
+msgstr "Gama de pressão da caneta"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:186
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:196
+msgid ""
+"Set this to the percentage of the physical pressure range that should map to "
+"the logical range."
+msgstr ""
+"Defina este valor como a percentagem do intervalo de pressão física que deve "
+"ser mapeada para o intervalo lógico."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:190
 msgid "Eraser pressure curve"
 msgstr "Curva de pressão do apagador"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:180
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:191
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
 msgstr ""
 "Defina isto para x1, y1 e x2, y2 da curva de pressão aplicada ao apagador."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:184
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:195
+msgid "Eraser pressure range"
+msgstr "Gama de pressão do apagador"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:200
 msgid "Button action"
 msgstr "Botão de ação"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:185
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:201
 msgid "Stylus button action, this button is located along the pen handle."
 msgstr ""
 "Ação do botão da caneta. Este botão está localizado ao longo da pega da "
 "caneta."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:189
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:205
 msgid "Secondary button action"
-msgstr "Cor secundáriaBotão de ação secundário"
+msgstr "Ação do botão secundário"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:190
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:206
 msgid ""
 "Secondary stylus button action, this button is located along the pen handle "
 "on some styli like the Grip Pen. Other styli like the Airbrush Pen or the "
@@ -2072,14 +2308,14 @@ msgid ""
 msgstr ""
 "Ação do botão secundário da caneta. Este botão está localizado ao longo da "
 "pega caneta em algumas pontas como o Grip Pen. Outras pontas, como o "
-"Airbrush Pen ou o Inking Pen só tem um botão. Esta configuração é "
-"ineficaznesses casos."
+"Airbrush Pen ou o Inking Pen só tem um botão. Esta configuração é ineficaz "
+"nesses casos."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:194
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:210
 msgid "Tertiary button action"
 msgstr "Ação do botão secundário"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:195
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:211
 msgid ""
 "Tertiary stylus button action, this button is located along the pen handle "
 "on some styli like the 3D Pen. Other styli like the Grip Pen only have two "
@@ -2090,31 +2326,46 @@ msgstr ""
 "Airbrush Pen ou o Inking Pen só tem um botão. Esta configuração é ineficaz "
 "nesses casos."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:201
-msgid "Pad button action type"
-msgstr "Tipo de ação dos botões do dispositivo plano"
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:215
+msgid "Key combination for the primary button"
+msgstr "Combinação de teclas para o botão principal"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:202
-msgid "The type of action triggered by the button being pressed."
-msgstr "Tipo de ação a ser ativada pelo botão a ser primido."
-
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:206
-msgid "Key combination for the custom action"
-msgstr "Combinação de teclas para ação costumizada"
-
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:207
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:216
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:221
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:226
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:238
 msgid ""
 "The keyboard shortcut generated when the button is pressed for custom "
 "actions."
 msgstr ""
-"O atalho de teclado a ser geredo quando o botão é premido por ações "
+"O atalho de teclado a ser gerado quando o botão é premido por ações "
 "personalizadas."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:213
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:220
+msgid "Key combination for the secondary button"
+msgstr "Combinação de teclas para o botão secundário"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:225
+msgid "Key combination for the tertiary button"
+msgstr "Combinação de teclas para o botão terciário"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:232
+msgid "Pad button action type"
+msgstr "Tipo de ação dos botões do dispositivo plano"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:233
+msgid "The type of action triggered by the button being pressed."
+msgstr "Tipo de ação a ser ativada pelo botão a ser primido."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:237
+msgid "Key combination for the custom action"
+msgstr "Combinação de teclas para ação costumizada"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:244
 msgid "Touchscreen output mapping"
 msgstr "Mapa da saída do ecrã de toque"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:214
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:245
 msgid ""
 "EDID information of the output the touchscreen is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic "
@@ -2124,15 +2375,15 @@ msgstr ""
 "estar no formato [fabricante, produto, nº de série]. [\"\",\"\",\"\"] "
 "desativa o mapeamento."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:221
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:252
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr "Botão de emulação da roda do rato. 0 para desativar."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:225
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:256
 msgid "Mouse wheel emulation button lock"
 msgstr "Bloqueio do botão de emulação da roda do rato"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:226
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:257
 msgid ""
 "Set this to TRUE to enable button locking for the wheel emulation button. If "
 "enabled, the first click of the button enables scrolling, the second click "
@@ -2142,7 +2393,7 @@ msgstr ""
 "roda. Se ativado, o primeiro clique do botão ativa o deslocamento, o segundo "
 "clique desativa novamente o deslocamento."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:231
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:262
 msgid ""
 "Acceleration profile used for the trackball. The acceleration profile can be "
 "set to either default (“default”) which uses the default acceleration "
@@ -2152,12 +2403,54 @@ msgid ""
 "support the configured profile, “default” will be used."
 msgstr ""
 "Perfil de aceleração utilizado para ponteiros com bola. O perfil de "
-"aceleração pode ser definido para qualquer predefinição (“default”), que "
-"utilize o perfil de aceleração predefinido, plano (“flat”) que acelera por "
+"aceleração pode ser definido para qualquer predefinição (“predefinido”), que "
+"utilize o perfil de aceleração predefinido, plano (“plano”) que acelera por "
 "um fator constante específico do dispositivo derivado a partir da velocidade "
-"configurada, ou adaptativa (“adaptive”) que se adapta à aceleração em função "
-"do movimento. Se o ponteiro não suporta o perfil configurado, “default” será "
-"utilizado."
+"configurada, ou adaptativa (“adaptativa”) que se adapta à aceleração em "
+"função do movimento. Se o ponteiro não suporta o perfil configurado, "
+"“predefinido” será utilizado."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:274
+msgid ""
+"Pointer speed for pointing sticks. Accepted values are in the [-1..1] range "
+"(from “unaccelerated” to “fast”). A value of 0 is the system default."
+msgstr ""
+"A velocidade de cursor do ponteiro. Valores aceites estão no intervalo "
+"[-1..1] (de “desacelerado” a “rápido”). 0 é a predefinição do sistema."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:280
+msgid ""
+"Acceleration profile used for the pointing stick. The acceleration profile "
+"can be set to either default (“default”) which uses the default acceleration "
+"profile, flat (“flat”), which accelerates by a device specific constant "
+"factor derived from the configured speed, or adaptive (“adaptive”) which "
+"adapts the acceleration depending on the movement. If the pointing stick "
+"doesn’t support the configured profile, “default” will be used."
+msgstr ""
+"Perfil de aceleração utilizado para o ponteiro. O perfil de aceleração pode "
+"ser definido para qualquer predefinição (“predefinido”), que utilize o "
+"perfil de aceleração predefinido, plano (“plano”) que acelera por um fator "
+"constante específico do dispositivo derivado a partir da velocidade "
+"configurada, ou adaptativa (“adaptativa”) que se adapta à aceleração em "
+"função do movimento. Se o ponteiro não suporta o perfil configurado, "
+"“predefinido” será utilizado."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:284
+msgid "Scrolling method"
+msgstr "Método de deslocamento"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:285
+msgid ""
+"Scrolling method used for pointing sticks. The scrolling method can be set "
+"to either default (“default”) which uses the default method, none (“none”), "
+"which disables scrolling, or middle-button (“on-button-down”) which enables "
+"scrolling whilst the middle button is held down."
+msgstr ""
+"Método de deslocamento utilizado do ponteiro. O método de deslocamento pode "
+"ser definido para qualquer predefinição (\"predefinido\"), que utiliza o "
+"método predefinido, nenhum (\"nenhum\"), que desativa o deslocamento, ou "
+"botão do meio (\"on-button-down\"), que permite o deslocamento enquanto o "
+"botão do meio é mantido premido."
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:6
 msgid "Controls visibility of personal information"
@@ -2315,9 +2608,23 @@ msgid ""
 "will be rejected; if set to “always”, all new USB devices will always be "
 "rejected."
 msgstr ""
-"Se definido como “lockscreen”, só quando o ecrã de bloqueio estiver ativo "
+"Se definido como “bloquear ecrã”, só quando o ecrã de bloqueio estiver ativo "
 "que os novos dispositivos USB hão de serem rejeitados; se definido como "
-"“always”, todos os novos dispositivos USB serão rejeitados sempre."
+"“sempre”, todos os novos dispositivos USB serão rejeitados sempre."
+
+#: schemas/org.gnome.desktop.privacy.gschema.xml.in:95
+msgid "Whether the privacy screen is enabled"
+msgstr "Se o ecrã de privacidade está ativado"
+
+#: schemas/org.gnome.desktop.privacy.gschema.xml.in:96
+msgid ""
+"If the underlying hardware has privacy screen support and this setting is "
+"enabled, the panels supporting this technology will be obscured from lateral "
+"view."
+msgstr ""
+"Se o equipamento subjacente tiver suporte de ecrã de privacidade e esta "
+"configuração estiver ativada, os painéis que suportam esta tecnologia serão "
+"obscurecidos da vista lateral."
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:6
 msgid "Activate when idle"
@@ -2379,7 +2686,7 @@ msgid ""
 msgstr ""
 "Definir como VERDADEIRO para permitir embutir um teclado na janela ao tentar "
 "desbloquear. A chave “keyboard_command” tem de estar definida com o comando "
-"adequado.OBSOLETA: esta chave é obsoleta e ignorada."
+"adequado. OBSOLETA: esta chave é obsoleta e ignorada."
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:40
 msgid "Embedded keyboard command"
@@ -2756,7 +3063,7 @@ msgstr "Ocultar todas as janelas normais"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:136
 msgid "DEPRECATED: This key is deprecated and ignored."
-msgstr "DEPRECADA: Esta chave é depreciada e ignorada."
+msgstr "OBSOLETA: Esta chave está obsoleta e ignorada."
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:140
 msgid "Show the run command prompt"
@@ -2791,190 +3098,186 @@ msgid "Restore window"
 msgstr "Restaurar a janela"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:172
-msgid "Toggle shaded state"
-msgstr "Alternar estado sombreado"
-
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:176
 msgid "Minimize window"
 msgstr "Minimizar a janela"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:180
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:176
 msgid "Close window"
 msgstr "Fechar janela"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:184
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:180
 msgid "Move window"
 msgstr "Mover a janela"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:188
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:184
 msgid "Resize window"
 msgstr "Redimensionar a janela"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:192
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:188
 msgid "Toggle window on all workspaces or one"
 msgstr "Alternar janela em todas as áreas de trabalho ou só numa"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:196
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:192
 msgid "Move window to workspace 1"
 msgstr "Mover janela para a área de trabalho 1"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:200
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:196
 msgid "Move window to workspace 2"
 msgstr "Mover janela para a área de trabalho 2"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:204
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:200
 msgid "Move window to workspace 3"
 msgstr "Mover janela para a área de trabalho 3"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:208
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:204
 msgid "Move window to workspace 4"
 msgstr "Mover janela para a área de trabalho 4"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:212
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:208
 msgid "Move window to workspace 5"
 msgstr "Mover janela para a área de trabalho 5"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:216
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:212
 msgid "Move window to workspace 6"
 msgstr "Mover janela para a área de trabalho 6"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:220
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:216
 msgid "Move window to workspace 7"
 msgstr "Mover janela para a área de trabalho 7"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:224
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:220
 msgid "Move window to workspace 8"
 msgstr "Mover janela para a área de trabalho 8"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:228
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:224
 msgid "Move window to workspace 9"
 msgstr "Mover janela para a área de trabalho 9"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:232
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:228
 msgid "Move window to workspace 10"
 msgstr "Mover janela para a área de trabalho 10"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:236
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:232
 msgid "Move window to workspace 11"
 msgstr "Mover janela para a área de trabalho 11"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:240
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:236
 msgid "Move window to workspace 12"
 msgstr "Mover janela para a área de trabalho 12"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:244
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:240
 msgid "Move window to last workspace"
 msgstr "Mover janela para a última área de trabalho"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:248
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:244
 msgid "Move window one workspace to the left"
 msgstr "Mover a janela uma área de trabalho para a esquerda"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:252
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:248
 msgid "Move window one workspace to the right"
 msgstr "Mover a janela uma área de trabalho para a direita"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:256
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:252
 msgid "Move window one workspace up"
 msgstr "Mover a janela uma área de trabalho acima"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:260
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:256
 msgid "Move window one workspace down"
 msgstr "Mover a janela uma área de trabalho abaixo"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:264
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:260
 msgid "Move window to the next monitor on the left"
 msgstr "Mover a janela para o monitor seguinte à esquerda"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:268
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:264
 msgid "Move window to the next monitor on the right"
 msgstr "Mover a janela para o monitor seguinte à direita"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:272
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:268
 msgid "Move window to the next monitor above"
 msgstr "Mover a janela para o monitor seguinte acima"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:276
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:272
 msgid "Move window to the next monitor below"
 msgstr "Mover a janela para o monitor seguinte abaixo"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:280
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:276
 msgid "Raise window if covered, otherwise lower it"
 msgstr "Elevar a janela se estiver tapada, caso contrário baixá-la"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:284
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:280
 msgid "Raise window above other windows"
 msgstr "Elevar janela acima de outras janelas"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:288
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:284
 msgid "Lower window below other windows"
 msgstr "Baixar janela abaixo de outras janelas"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:292
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:288
 msgid "Maximize window vertically"
 msgstr "Maximizar janela verticalmente"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:296
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:292
 msgid "Maximize window horizontally"
 msgstr "Maximizar janela horizontalmente"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:300
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:296
 msgid "Move window to top left corner"
 msgstr "Mover a janela para o canto superior esquerdo"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:304
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:300
 msgid "Move window to top right corner"
 msgstr "Mover a janela para o canto superior direito"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:308
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:304
 msgid "Move window to bottom left corner"
 msgstr "Mover a janela para o canto inferior esquerdo"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:312
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:308
 msgid "Move window to bottom right corner"
 msgstr "Mover a janela para o canto inferior direito"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:316
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:312
 msgid "Move window to top edge of screen"
 msgstr "Mover a janela para o topo do ecrã"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:320
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:316
 msgid "Move window to bottom edge of screen"
 msgstr "Mover a janela para o fundo do ecrã"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:324
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:320
 msgid "Move window to right side of screen"
 msgstr "Mover a janela para o lado direito do ecrã"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:328
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:324
 msgid "Move window to left side of screen"
 msgstr "Mover a janela para o lado esquerdo do ecrã"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:332
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:328
 msgid "Move window to center of screen"
 msgstr "Mover a janela para o centro do ecrã"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:336
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:332
 msgid "Switch input source"
 msgstr "Alternar a origem de entrada"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:337
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:333
 msgid "Binding to select the next input source"
 msgstr "Associar para selecionar a origem de entrada seguinte"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:341
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:337
 msgid "Switch input source backward"
 msgstr "Alternar inversamente a origem de entrada"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:342
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:338
 msgid "Binding to select the previous input source"
 msgstr "Associar para selecionar a origem de entrada anterior"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:346
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:342
 msgid "Toggle window to be always on top"
 msgstr "Alternar a janela para estar sempre no topo"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:347
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:343
 msgid "Set or unset window to appear always on top"
 msgstr "Configurar janela para estar ou não sempre no topo"
 
@@ -3058,13 +3361,13 @@ msgstr "Controla como as novas janelas obtém o foco"
 msgid ""
 "This option provides additional control over how newly created windows get "
 "focus. It has two possible values; “smart” applies the user’s normal focus "
-"mode, and “strict” results in windows started from a terminal not being "
-"given focus."
+"mode, and “strict” results in new windows not being given focus "
+"automatically."
 msgstr ""
 "Esta opção disponibiliza controlo adicional sobre como as janelas novas "
 "obtêm o foco. Existem dois valores possíveis; “smart” aplica o modo normal "
-"de foco do utilizador, e “strict” resulta em janelas iniciadas a partir de "
-"um terminal não receberem o foco."
+"de foco do utilizador, e “strict” faz com que as novas janelas não sejam "
+"focadas automaticamente."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:65
 msgid "Whether windows should be raised when their client area is clicked"
@@ -3093,73 +3396,70 @@ msgstr "Ação do duplo-clique na barra de título"
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:83
 msgid ""
 "This option determines the effects of double-clicking on the title bar. "
-"Current valid options are “toggle-shade”, which will shade/unshade the "
-"window, “toggle-maximize” which will maximize/unmaximize the window, “toggle-"
-"maximize-horizontally” and “toggle-maximize-vertically” which will maximize/"
-"unmaximize the window in that direction only, “minimize” which will minimize "
-"the window, “shade” which will roll the window up, “menu” which will display "
-"the window menu, “lower” which will put the window behind all the others, "
-"and “none” which will not do anything."
+"Current valid options are “toggle-maximize” which will maximize/unmaximize "
+"the window, “toggle-maximize-horizontally” and “toggle-maximize-vertically” "
+"which will maximize/unmaximize the window in that direction only, “minimize” "
+"which will minimize the window, “menu” which will display the window menu, "
+"“lower” which will put the window behind all the others, and “none” which "
+"will not do anything."
 msgstr ""
-"Esta opção determina o efeito do clique duplo na barra de título. As opções "
-"atualmente válidas são “toggle-shade”, que sombreia/remove sombra na janela, "
-"“toggle-maximize” que maximiza/restaura a janela, “toggle-maximize-"
-"horizontally” e “toggle-maximize-vertically” que vão maximizar/restaurar a "
-"janela apenas nessa direção, “minimize” que minimiza a janela, “shade” que "
-"enrola a janela, “menu” que mostra o menu da janela, “lower” que coloca a "
-"janela por detrás de todas as outras e “none” que não fará qualquer ação."
+"Esta opção determina os efeitos de um duplo clique na barra de título. As "
+"opções válidas atualmente são \"toggle-maximize\" que irá maximizar/repor a "
+"janela, \"toggle-maximize-horizontally\" e \"toggle-maximize-vertically\" "
+"que irá maximizar/repor a janela apenas nessa direção, \"minimize\" que irá "
+"minimizar a janela, \"menu\" que irá mostrar o menu da janela, \"lower\" que "
+"irá colocar a janela atrás de todas as outras, e \"none\" que não irá fazer "
+"nada."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:108
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:105
 msgid "Action on title bar middle-click"
 msgstr "Ação do clique do meio na barra de título"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:109
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:106
 msgid ""
 "This option determines the effects of middle-clicking on the title bar. "
-"Current valid options are “toggle-shade”, which will shade/unshade the "
-"window, “toggle-maximize” which will maximize/unmaximize the window, “toggle-"
-"maximize-horizontally” and “toggle-maximize-vertically” which will maximize/"
-"unmaximize the window in that direction only, “minimize” which will minimize "
-"the window, “shade” which will roll the window up, “menu” which will display "
-"the window menu, “lower” which will put the window behind all the others, "
-"and “none” which will not do anything."
+"Current valid options are “toggle-maximize” which will maximize/unmaximize "
+"the window, “toggle-maximize-horizontally” and “toggle-maximize-vertically” "
+"which will maximize/unmaximize the window in that direction only, “minimize” "
+"which will minimize the window, “menu” which will display the window menu, "
+"“lower” which will put the window behind all the others, and “none” which "
+"will not do anything."
 msgstr ""
-"Esta opção determina o efeito do clique do meio na barra de título. As "
-"opções atualmente válidas são “toggle-shade”, que sombreia/remove sombra na "
-"janela, “toggle-maximize” que maximiza/restaura a janela, “toggle-maximize-"
-"horizontally” e “toggle-maximize-vertically” que vão maximizar/restaurar a "
-"janela apenas nessa direção, “minimize” que minimiza a janela, “shade” que "
-"enrola a janela, “menu” que mostra o menu da janela, “lower” que coloca a "
-"janela por detrás de todas as outras e “none” que não fará qualquer ação."
+"Esta opção determina os efeitos do clique do meio na barra de título. As "
+"opções válidas atualmente são \"toggle-maximize\" que irá maximizar/repor a "
+"janela, \"toggle-maximize-horizontally\" e \"toggle-maximize-vertically\" "
+"que irá maximizar/repor a janela apenas nessa direção, \"minimize\" que irá "
+"minimizar a janela, \"menu\" que irá mostrar o menu da janela, \"lower\" que "
+"irá colocar a janela atrás de todas as outras, e \"none\" que não irá fazer "
+"nada."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:134
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:129
 msgid "Action on title bar right-click"
 msgstr "Ação do clique direito na barra de título"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:135
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:130
 msgid ""
 "This option determines the effects of right-clicking on the title bar. "
-"Current valid options are “toggle-shade”, which will shade/unshade the "
-"window, “toggle-maximize” which will maximize/unmaximize the window, “toggle-"
-"maximize-horizontally” and “toggle-maximize-vertically” which will maximize/"
-"unmaximize the window in that direction only, “minimize” which will minimize "
-"the window, “shade” which will roll the window up, “menu” which will display "
-"the window menu, “lower” which will put the window behind all the others, "
-"and “none” which will not do anything."
+"Current valid options are “toggle-maximize” which will maximize/unmaximize "
+"the window, “toggle-maximize-horizontally” and “toggle-maximize-vertically” "
+"which will maximize/unmaximize the window in that direction only, “minimize” "
+"which will minimize the window, “menu” which will display the window menu, "
+"“lower” which will put the window behind all the others, and “none” which "
+"will not do anything."
 msgstr ""
-"Esta opção determina o efeito do clique direito na barra de título. As "
-"opções atualmente válidas são “toggle-shade”, que sombreia/remove sombra na "
-"janela, “toggle-maximize” que maximiza/restaura a janela, “toggle-maximize-"
-"horizontally” e “toggle-maximize-vertically” que vão maximizar/restaurar a "
-"janela apenas nessa direção, “minimize” que minimiza a janela, “shade” que "
-"enrola a janela, “menu” que mostra o menu da janela, “lower” que coloca a "
-"janela por detrás de todas as outras e “none” que não fará qualquer ação."
+"Esta opção determina os efeitos de clicar com o botão direito do rato na "
+"barra de título. As opções válidas atualmente são \"toggle-maximize\" que "
+"irá maximizar/repor a janela, \"toggle-maximize-horizontally\" e \"toggle-"
+"maximize-vertically\" que irá maximizar/repor a janela apenas nessa direção, "
+"\"minimize\" que irá minimizar a janela, \"menu\" que irá mostrar o menu da "
+"janela, \"lower\" que irá colocar a janela atrás de todas as outras, e "
+"\"none\" que não irá fazer nada."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:159
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:152
 msgid "Automatically raises the focused window"
 msgstr "Eleva automaticamente a janela com o foco"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:160
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:153
 msgid ""
 "If set to true, and the focus mode is either “sloppy” or “mouse” then the "
 "focused window will be automatically raised after a delay specified by the "
@@ -3171,11 +3471,11 @@ msgstr ""
 "auto-raise-delay. Isto não está relacionado com clicar numa janela para a "
 "elevar, nem com entrar numa janela durante um processo de arrastar e largar."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:170
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:163
 msgid "Delay in milliseconds for the auto raise option"
 msgstr "Atraso em milissegundos para a opção de elevar automaticamente"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:171
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:164
 msgid ""
 "The time delay before raising a window if auto-raise is set to true. The "
 "delay is given in thousandths of a second."
@@ -3183,11 +3483,11 @@ msgstr ""
 "O atraso temporal antes de elevar uma janela caso auto-raise esteja definido "
 "como verdadeiro. O atraso é especificado em milésimas de segundo."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:178
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:171
 msgid "Current theme"
 msgstr "Tema atual"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:179
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:172
 msgid ""
 "The theme determines the appearance of window borders, titlebar, and so "
 "forth. DEPRECATED: This key is deprecated and ignored."
@@ -3195,11 +3495,11 @@ msgstr ""
 "O tema determina a aparência das margens das janelas, barras de título, etc. "
 "OBSOLETA: esta chave é obsoleta e será ignorada."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:188
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:181
 msgid "Use standard system font in window titles"
 msgstr "Utilizar letra de sistema standard nos títulos das janelas"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:189
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:182
 msgid ""
 "If true, ignore the titlebar-font option, and use the standard application "
 "font for window titles."
@@ -3207,11 +3507,11 @@ msgstr ""
 "Se verdadeiro, ignora a opção titlebar-font e utiliza a letra padrão da "
 "aplicação para os títulos da janela."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:196
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:189
 msgid "Window title font"
 msgstr "Letra de título de janela"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:197
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:190
 msgid ""
 "A font description string describing a font for window titlebars. The size "
 "from the description will only be used if the titlebar-font-size option is "
@@ -3223,11 +3523,11 @@ msgstr ""
 "font-size estiver definida como 0. Esta opção será desabilitada se a opção "
 "titlebar-uses-desktop-font estiver definida como verdadeira."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:207
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:200
 msgid "Number of workspaces"
 msgstr "Número de áreas de trabalho"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:208
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:201
 msgid ""
 "Number of workspaces. Must be more than zero, and has a fixed maximum to "
 "prevent making the desktop unusable by accidentally asking for too many "
@@ -3237,11 +3537,11 @@ msgstr ""
 "fixo (para impedir que torne o seu ambiente de trabalho inutilizável por "
 "pedir demasiadas áreas de trabalho)."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:216
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:209
 msgid "System Bell is Audible"
 msgstr "Campainha de sistema é audível"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:217
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:210
 msgid ""
 "Determines whether applications or the system can generate audible “beeps”; "
 "may be used in conjunction with “visual bell” to allow silent “beeps”."
@@ -3250,11 +3550,11 @@ msgstr ""
 "ser utilizado em conjunto com a campainha visual para permitir “sons” "
 "silenciosos."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:225
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:218
 msgid "Enable Visual Bell"
 msgstr "Ativar campainha visual"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:226
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:219
 msgid ""
 "Turns on a visual indication when an application or the system issues a "
 "“bell” or “beep”; useful for the hard-of-hearing and for use in noisy "
@@ -3264,11 +3564,11 @@ msgstr ""
 "“campainha” ou “som”; útil para os deficientes auditivos e para utilizar em "
 "ambientes ruidosos."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:235
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:228
 msgid "Visual Bell Type"
 msgstr "Tipo de campainha visual"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:236
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:229
 msgid ""
 "Tells the WM how to implement the visual indication that the system bell or "
 "another application “bell” indicator has been rung. Currently there are two "
@@ -3286,13 +3586,13 @@ msgstr ""
 "tocou a campainha for desconhecida (é normalmente o caso para o “som de "
 "sistema” predefinido), a barra de título da aplicação com o foco pisca."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:257
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:250
 msgid "Disable misfeatures that are required by old or broken applications"
 msgstr ""
 "Desabilitar funcionalidades inválidas requeridas por aplicações antigas ou "
 "estragadas"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:260
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:253
 msgid ""
 "Some applications disregard specifications in ways that result in window "
 "manager misfeatures. This option puts the WM in a rigorously correct mode, "
@@ -3305,11 +3605,11 @@ msgstr ""
 "utilizador mais consistente, desde que não seja necessário utilizar nenhuma "
 "aplicação que seja problemática."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:270
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:263
 msgid "The names of the workspaces"
 msgstr "Os nomes das áreas de trabalho"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:271
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:264
 msgid ""
 "Defines the names that should be assigned to workspaces. If the list is too "
 "long for the current number of workspaces, names in excess will be ignored. "
@@ -3422,13 +3722,16 @@ msgstr ""
 "192.168.0.0/24)."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:56
+msgid "Use HTTP proxy for all protocols"
+msgstr "Usar proxy HTTP para todos os protocolos"
+
+#: schemas/org.gnome.system.proxy.gschema.xml.in:57
+msgid "Whether to use the HTTP proxy for all protocols or not."
+msgstr "Usar ou não o proxy HTTP para todos os protocolos."
+
 #: schemas/org.gnome.system.proxy.gschema.xml.in:65
 msgid "Unused; ignore"
 msgstr "Não utilizado; ignorar"
-
-#: schemas/org.gnome.system.proxy.gschema.xml.in:57
-msgid "This key is not used, and should not be read or modified."
-msgstr "Esta chave não é utilizada e não deverá ser lida nem alterada."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:66
 msgid ""
@@ -3551,6 +3854,12 @@ msgid ""
 msgstr ""
 "O porto na máquina, definido por “/system/proxy/socks/host”, através do qual "
 "efetuar proxy."
+
+#~ msgid "Toggle shaded state"
+#~ msgstr "Alternar estado sombreado"
+
+#~ msgid "This key is not used, and should not be read or modified."
+#~ msgstr "Esta chave não é utilizada e não deverá ser lida nem alterada."
 
 #~ msgid "Show the activities overview"
 #~ msgstr "Mostrar o resumo de atividades"
